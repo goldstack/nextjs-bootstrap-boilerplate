@@ -1,11 +1,18 @@
-# Goldstack Project Root
+# Next.js + Bootstrap Boilerplate
 
-The root of the project contains configuration shared across modules as well as various utility scripts for applying operations for all modules.
+Boilerplate for a Next.js + Bootstrap project with support for [TypeScript](https://www.typescriptlang.org/) using [Yarn](https://yarnpkg.com/).
 
-You can find the modules you have selected in the folder `packages/`.
+This project is configured to support all features of the [Goldstack Next.js + Bootstrap Template](https://goldstack.party/templates/nextjs-bootstrap):
 
-Find further information here:
+- [TypeScript](https://www.typescriptlang.org/)
+- [Next.js](https://nextjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [VSCode](https://code.visualstudio.com/)
 
-- [Project Configuration](https://docs.goldstack.party/docs/goldstack/configuration)
-- [Getting Started](https://docs.goldstack.party/docs/goldstack/getting-started)
-- [Security Hardening](https://docs.goldstack.party/docs/goldstack/security-hardening)
+To get started, simply clone this repository and run `yarn`.
+
+For more information on how to use this template, see [Next.js Bootstrap template documentation](https://docs.goldstack.party/docs/templates/app-nextjs-bootstrap).
+
+This boilerplate is automatically generated and updated by [Goldstack](https://goldstack.party)
