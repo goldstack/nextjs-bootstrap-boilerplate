@@ -515,15 +515,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-nextjs@npm:0.3.100":
-  version: 0.3.100
-  resolution: "@goldstack/template-nextjs@npm:0.3.100"
+"@goldstack/template-nextjs@npm:0.3.101":
+  version: 0.3.101
+  resolution: "@goldstack/template-nextjs@npm:0.3.101"
   dependencies:
     "@goldstack/infra": 0.3.30
     "@goldstack/infra-aws": 0.3.38
     "@goldstack/template-static-website-aws": 0.3.91
     "@goldstack/utils-aws-cli": 0.3.48
-    "@goldstack/utils-aws-lambda": 0.1.20
+    "@goldstack/utils-aws-lambda": 0.1.21
     "@goldstack/utils-cli": 0.2.10
     "@goldstack/utils-config": 0.3.27
     "@goldstack/utils-log": 0.2.11
@@ -539,7 +539,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-nextjs: ./bin/template
-  checksum: 06561584e3f9e16832a7ca5784b763e01fd0fba944aa0382d9eab79b79d5359d6170c14d8aed0f884cf45bb6986baadcc3226090812996c00618d73e6d44e413
+  checksum: 808d09c8383a2fd1a6ab39e2cf73c75a2de8f6a256115f1c34f958988cefe2adbd0d2439d4d459e367f31d32f03c6009d12451a40f4d26c381afaa7c2441f67d
   languageName: node
   linkType: hard
 
@@ -582,15 +582,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-aws-lambda@npm:0.1.20":
-  version: 0.1.20
-  resolution: "@goldstack/utils-aws-lambda@npm:0.1.20"
+"@goldstack/utils-aws-lambda@npm:0.1.21":
+  version: 0.1.21
+  resolution: "@goldstack/utils-aws-lambda@npm:0.1.21"
   dependencies:
     "@goldstack/utils-aws-cli": 0.3.48
     "@goldstack/utils-log": 0.2.11
     "@goldstack/utils-sh": 0.4.26
     aws-sdk: 2.1001.0
-  checksum: fa89aba8e2206c043ed5578a66f0b9eee86fb866582efed34915137d366d88eb3adee3589617648c46deb1bedf7682a9a5a4b6be9de28d3c5d9da0900eff6f8d
+  checksum: 4da51751cae54c9f86f915a85f361900956793ff1744d31641a0160b384200c2d2a510631a923fa7325dec5f2522738e8a4e184ae9479cd38e307274f03c8952
   languageName: node
   linkType: hard
 
@@ -2266,7 +2266,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app-nextjs-bootstrap-1@workspace:packages/app-nextjs-bootstrap-1"
   dependencies:
-    "@goldstack/template-nextjs": 0.3.100
+    "@goldstack/template-nextjs": 0.3.101
     "@goldstack/utils-sh": 0.4.26
     "@testing-library/jest-dom": ^5.9.0
     "@testing-library/react": ^10.0.4
