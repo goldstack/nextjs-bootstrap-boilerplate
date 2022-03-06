@@ -474,64 +474,64 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/infra-aws@npm:0.3.38":
-  version: 0.3.38
-  resolution: "@goldstack/infra-aws@npm:0.3.38"
+"@goldstack/infra-aws@npm:0.3.39":
+  version: 0.3.39
+  resolution: "@goldstack/infra-aws@npm:0.3.39"
   dependencies:
-    "@goldstack/infra": 0.3.30
-    "@goldstack/utils-config": 0.3.27
+    "@goldstack/infra": 0.3.31
+    "@goldstack/utils-config": 0.3.28
     "@goldstack/utils-log": 0.2.11
-    "@goldstack/utils-package": 0.3.32
-    "@goldstack/utils-sh": 0.4.26
+    "@goldstack/utils-package": 0.3.33
+    "@goldstack/utils-sh": 0.4.27
     aws-sdk: 2.1001.0
     axios: ^0.21.1
     handlebars: ^4.7.6
-  checksum: 6f41e082bd4987124d0040892b12991a3ad876e62506075966a403d95584053b0109bcc5d1015ebdae6ac992b6fc2b28bbdf13f1e25d00c91aff710a340f3af2
+  checksum: 4d69f7d55b759f32b2f09a23cffcb23e655752f4b32e47f693accac79fefab03f2f605872577eb6d6f843c65b1f12f82f3e088f4fce6549ef74b6664d3c0da07
   languageName: node
   linkType: hard
 
-"@goldstack/infra@npm:0.3.30":
-  version: 0.3.30
-  resolution: "@goldstack/infra@npm:0.3.30"
+"@goldstack/infra@npm:0.3.31":
+  version: 0.3.31
+  resolution: "@goldstack/infra@npm:0.3.31"
   dependencies:
-    "@goldstack/utils-config": 0.3.27
+    "@goldstack/utils-config": 0.3.28
     "@goldstack/utils-log": 0.2.11
-    "@goldstack/utils-sh": 0.4.26
-  checksum: d6a4e10830b53695efa72d3efc986423fe4bd4cf69c1ff84e2fd02d72ca19d729cdcf0cfec40c7c9a2cdc50271a460645a987ef65d87a3e4f72effd049f1ff36
+    "@goldstack/utils-sh": 0.4.27
+  checksum: c98831d30edb5a0f3a33e197128ddf4fe4a765c62e108d0799067cd7ef4db38bc887583fa1440006007e0bb8c908a8e653bc7bc73387913f2f7e1e5253aaf33b
   languageName: node
   linkType: hard
 
-"@goldstack/nodemonx@npm:0.3.27":
-  version: 0.3.27
-  resolution: "@goldstack/nodemonx@npm:0.3.27"
+"@goldstack/nodemonx@npm:0.3.28":
+  version: 0.3.28
+  resolution: "@goldstack/nodemonx@npm:0.3.28"
   dependencies:
     "@goldstack/utils-log": 0.2.11
-    "@goldstack/utils-sh": 0.4.26
+    "@goldstack/utils-sh": 0.4.27
     minimatch: ^3.0.4
     node-watch: ^0.6.4
   bin:
     nodemonx: ./bin/utils-nodemonx
-  checksum: 6bd42768bcab91420dc7f161906d94c45429c2ac5c2b33920f080f4687442e344714ab221fa80d7585beb1f60bbd3dc2fbc38e7e5dd3535d7d972e2d2cea8280
+  checksum: 1682a581c5ac402cc1e6e94e1aeadd7f809b5256836c577d7fbea4711ae7ff80466cbf7bfe563b3206df2ac87cf70163d511aa7ca47c8a1edfec65a7b1ae5be2
   languageName: node
   linkType: hard
 
-"@goldstack/template-nextjs@npm:0.3.101":
-  version: 0.3.101
-  resolution: "@goldstack/template-nextjs@npm:0.3.101"
+"@goldstack/template-nextjs@npm:0.3.102":
+  version: 0.3.102
+  resolution: "@goldstack/template-nextjs@npm:0.3.102"
   dependencies:
-    "@goldstack/infra": 0.3.30
-    "@goldstack/infra-aws": 0.3.38
-    "@goldstack/template-static-website-aws": 0.3.91
-    "@goldstack/utils-aws-cli": 0.3.48
-    "@goldstack/utils-aws-lambda": 0.1.21
+    "@goldstack/infra": 0.3.31
+    "@goldstack/infra-aws": 0.3.39
+    "@goldstack/template-static-website-aws": 0.3.92
+    "@goldstack/utils-aws-cli": 0.3.49
+    "@goldstack/utils-aws-lambda": 0.1.22
     "@goldstack/utils-cli": 0.2.10
-    "@goldstack/utils-config": 0.3.27
+    "@goldstack/utils-config": 0.3.28
     "@goldstack/utils-log": 0.2.11
-    "@goldstack/utils-package": 0.3.32
-    "@goldstack/utils-package-config": 0.3.32
-    "@goldstack/utils-sh": 0.4.26
-    "@goldstack/utils-template": 0.3.29
-    "@goldstack/utils-terraform": 0.3.61
+    "@goldstack/utils-package": 0.3.33
+    "@goldstack/utils-package-config": 0.3.33
+    "@goldstack/utils-sh": 0.4.27
+    "@goldstack/utils-template": 0.3.30
+    "@goldstack/utils-terraform": 0.3.62
     glob: ^7.1.6
     source-map-support: ^0.5.21
     webpack: 4.43.0
@@ -539,58 +539,58 @@ __metadata:
   bin:
     template: ./bin/template
     template-nextjs: ./bin/template
-  checksum: 808d09c8383a2fd1a6ab39e2cf73c75a2de8f6a256115f1c34f958988cefe2adbd0d2439d4d459e367f31d32f03c6009d12451a40f4d26c381afaa7c2441f67d
+  checksum: e0dee2c3eb6be971fca6f4bf6cd934595d4d0db219b601f00b345186f1b0720d4128f3e8d3fa59e454fd1eee006b765bc2f8ea95d0e5acd77a9cd47122616e22
   languageName: node
   linkType: hard
 
-"@goldstack/template-static-website-aws@npm:0.3.91":
-  version: 0.3.91
-  resolution: "@goldstack/template-static-website-aws@npm:0.3.91"
+"@goldstack/template-static-website-aws@npm:0.3.92":
+  version: 0.3.92
+  resolution: "@goldstack/template-static-website-aws@npm:0.3.92"
   dependencies:
-    "@goldstack/infra": 0.3.30
-    "@goldstack/infra-aws": 0.3.38
+    "@goldstack/infra": 0.3.31
+    "@goldstack/infra-aws": 0.3.39
     "@goldstack/utils-cli": 0.2.10
-    "@goldstack/utils-config": 0.3.27
+    "@goldstack/utils-config": 0.3.28
     "@goldstack/utils-docs-cli": 0.3.11
     "@goldstack/utils-log": 0.2.11
-    "@goldstack/utils-package": 0.3.32
-    "@goldstack/utils-package-config": 0.3.32
-    "@goldstack/utils-s3-deployment": 0.3.49
-    "@goldstack/utils-sh": 0.4.26
-    "@goldstack/utils-template": 0.3.29
-    "@goldstack/utils-terraform": 0.3.61
-    "@goldstack/utils-terraform-aws": 0.3.60
+    "@goldstack/utils-package": 0.3.33
+    "@goldstack/utils-package-config": 0.3.33
+    "@goldstack/utils-s3-deployment": 0.3.50
+    "@goldstack/utils-sh": 0.4.27
+    "@goldstack/utils-template": 0.3.30
+    "@goldstack/utils-terraform": 0.3.62
+    "@goldstack/utils-terraform-aws": 0.3.61
     source-map-support: ^0.5.21
     yargs: ^15.4.1
   bin:
     template: ./bin/template
     template-static-website-aws: ./bin/template
-  checksum: 5a6a79a18f2504f498f9b34dc1ee9568d21790fcf064637697fe0ec116115d4090df715c310d743118cb2002fa0a813b90e3f266707512eab45b999bdb034f47
+  checksum: ce198ea97e4e002a17ce00bbe7d01492833050d770ae32089697d9ba4c7bcbb2d4149bae20538dc80e9748b671ecc9b9798582ad7cd0ddbd79c640c97cb9fd50
   languageName: node
   linkType: hard
 
-"@goldstack/utils-aws-cli@npm:0.3.48":
-  version: 0.3.48
-  resolution: "@goldstack/utils-aws-cli@npm:0.3.48"
+"@goldstack/utils-aws-cli@npm:0.3.49":
+  version: 0.3.49
+  resolution: "@goldstack/utils-aws-cli@npm:0.3.49"
   dependencies:
-    "@goldstack/infra-aws": 0.3.38
-    "@goldstack/utils-docker": 0.3.33
+    "@goldstack/infra-aws": 0.3.39
+    "@goldstack/utils-docker": 0.3.34
     "@goldstack/utils-log": 0.2.11
-    "@goldstack/utils-sh": 0.4.26
+    "@goldstack/utils-sh": 0.4.27
     aws-sdk: 2.1001.0
-  checksum: 2a2873af87accc3be95c63e61a9d8a8138c5fba6c1bc9fd2c598947865888aa89bde56adcd277a00913fa97d5cedc65f063d812e8f450c0a1c84ebb81ac5db7b
+  checksum: 041343101127e59db78f119878265b010a24c781eec5743665176f0b88b44e5fdfb104179ab1b3df520e5f7f1ca73edd2a3ec76de51b90c386d309373713ced4
   languageName: node
   linkType: hard
 
-"@goldstack/utils-aws-lambda@npm:0.1.21":
-  version: 0.1.21
-  resolution: "@goldstack/utils-aws-lambda@npm:0.1.21"
+"@goldstack/utils-aws-lambda@npm:0.1.22":
+  version: 0.1.22
+  resolution: "@goldstack/utils-aws-lambda@npm:0.1.22"
   dependencies:
-    "@goldstack/utils-aws-cli": 0.3.48
+    "@goldstack/utils-aws-cli": 0.3.49
     "@goldstack/utils-log": 0.2.11
-    "@goldstack/utils-sh": 0.4.26
+    "@goldstack/utils-sh": 0.4.27
     aws-sdk: 2.1001.0
-  checksum: 4da51751cae54c9f86f915a85f361900956793ff1744d31641a0160b384200c2d2a510631a923fa7325dec5f2522738e8a4e184ae9479cd38e307274f03c8952
+  checksum: 269757ec4791f093642bc421df57d83ccda96ad0527ec3f11b669f6bc9a132206ddd067c2d2914c2e3bbda934aa5d9f7ecb4b41a4d3b7fc1ce1fbb0a7fd14438
   languageName: node
   linkType: hard
 
@@ -608,24 +608,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-config@npm:0.3.27":
-  version: 0.3.27
-  resolution: "@goldstack/utils-config@npm:0.3.27"
+"@goldstack/utils-config@npm:0.3.28":
+  version: 0.3.28
+  resolution: "@goldstack/utils-config@npm:0.3.28"
   dependencies:
     "@goldstack/utils-log": 0.2.11
-    "@goldstack/utils-sh": 0.4.26
+    "@goldstack/utils-sh": 0.4.27
     ajv: ^6.12.2
     handlebars: ^4.7.6
-  checksum: 2fbd833e931bf5030953bcbfea410b2cfb1f9b1bf3e8b20ec424faa5295c7020900d4e3cebbacceeccf925d791fa74a17595ad5ba636354bffe06b45b78b519d
+  checksum: 328d4cf949f11e9eb4482f396be5166fffcd42abac95d2871a95e1a278fa11384dcd951be94c129b412927913ecaae176fdab4ce771c54d888262fdcc0a31acc
   languageName: node
   linkType: hard
 
-"@goldstack/utils-docker@npm:0.3.33":
-  version: 0.3.33
-  resolution: "@goldstack/utils-docker@npm:0.3.33"
+"@goldstack/utils-docker@npm:0.3.34":
+  version: 0.3.34
+  resolution: "@goldstack/utils-docker@npm:0.3.34"
   dependencies:
-    "@goldstack/utils-sh": 0.4.26
-  checksum: d30eb3690e13600f3fefd48480d7a7dfee979a4cb11081bff1e97f841689852addfc950c179ce1a0b2ddc1d4d587a756cb8cafcbb7bcc30a37a11142d9ae0ee0
+    "@goldstack/utils-sh": 0.4.27
+  checksum: 524bf74ae25eff37d3f1309aa3c38bd6a8d4dc962aa660823c0ce2dd58f80a4bae94ff6369bb8ae44808a9d2261e2afc119e3c88f8d0a7f97682efce921093ee
   languageName: node
   linkType: hard
 
@@ -681,46 +681,46 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-package-config@npm:0.3.32":
-  version: 0.3.32
-  resolution: "@goldstack/utils-package-config@npm:0.3.32"
+"@goldstack/utils-package-config@npm:0.3.33":
+  version: 0.3.33
+  resolution: "@goldstack/utils-package-config@npm:0.3.33"
   dependencies:
-    "@goldstack/infra": 0.3.30
-    "@goldstack/utils-config": 0.3.27
-    "@goldstack/utils-package": 0.3.32
-    "@goldstack/utils-sh": 0.4.26
+    "@goldstack/infra": 0.3.31
+    "@goldstack/utils-config": 0.3.28
+    "@goldstack/utils-package": 0.3.33
+    "@goldstack/utils-sh": 0.4.27
     yargs: ^15.4.1
-  checksum: 3f6bd0c703a549c3eebdd2d9f66944143c8c083af01a575a82cd53f22c9d7702319a886041521fd4a4d30693ecb4d57cc39d2a4b25215f4dbb7c4683ad935fde
+  checksum: 38ddbff508ee329758a25facb547d3c5d05a97c3ff4ae9600949ccbd17c2a1126c72d53a3ae42fe83663fe17954e85e20c4136a45ec5d23344ef44f8718ec02f
   languageName: node
   linkType: hard
 
-"@goldstack/utils-package@npm:0.3.32":
-  version: 0.3.32
-  resolution: "@goldstack/utils-package@npm:0.3.32"
+"@goldstack/utils-package@npm:0.3.33":
+  version: 0.3.33
+  resolution: "@goldstack/utils-package@npm:0.3.33"
   dependencies:
-    "@goldstack/infra": 0.3.30
-    "@goldstack/utils-config": 0.3.27
-    "@goldstack/utils-sh": 0.4.26
+    "@goldstack/infra": 0.3.31
+    "@goldstack/utils-config": 0.3.28
+    "@goldstack/utils-sh": 0.4.27
     yargs: ^15.4.1
-  checksum: 36b76da868f5c7fafd16ef82f338d248a6e57fe5b41e3506a3c14e2c1ead06f36a2120042e5071aeb9f556b3592219b18a86cb319dfd9399102b432cca83e01b
+  checksum: 4f1c196f1e2f2866add67ef8ed66a50db1f93dd3acc5aa4c2f9e64c6c4fdde36a7d25519f699b950a3421917dc1367bcbf8143362952a36881c779b07bae8b87
   languageName: node
   linkType: hard
 
-"@goldstack/utils-s3-deployment@npm:0.3.49":
-  version: 0.3.49
-  resolution: "@goldstack/utils-s3-deployment@npm:0.3.49"
+"@goldstack/utils-s3-deployment@npm:0.3.50":
+  version: 0.3.50
+  resolution: "@goldstack/utils-s3-deployment@npm:0.3.50"
   dependencies:
-    "@goldstack/infra-aws": 0.3.38
-    "@goldstack/utils-aws-cli": 0.3.48
-    "@goldstack/utils-docker": 0.3.33
-    "@goldstack/utils-sh": 0.4.26
-  checksum: f77b631fdfd56355886d31c99e03b9982ce37d18d15ece3144db7e687c684cd347ad215b65d7a6c5a02d70edbbe4dbd50d6db20be5169bfceb55fc0c63a12010
+    "@goldstack/infra-aws": 0.3.39
+    "@goldstack/utils-aws-cli": 0.3.49
+    "@goldstack/utils-docker": 0.3.34
+    "@goldstack/utils-sh": 0.4.27
+  checksum: 013e37a23bb27c0ff12a23fdfdb0bc42ceab7c959217c750805e7420c56e93b737e2a8b77e5348c04a8c658530dbd96f336e8a05844e239124dc068bd841032f
   languageName: node
   linkType: hard
 
-"@goldstack/utils-sh@npm:0.4.26":
-  version: 0.4.26
-  resolution: "@goldstack/utils-sh@npm:0.4.26"
+"@goldstack/utils-sh@npm:0.4.27":
+  version: 0.4.27
+  resolution: "@goldstack/utils-sh@npm:0.4.27"
   dependencies:
     "@goldstack/utils-log": 0.2.11
     archiver: ^5.0.0
@@ -730,7 +730,7 @@ __metadata:
     ncp: ^2.0.0
     rimraf: ^3.0.2
     which: ^2.0.2
-  checksum: 0f3d99e9932ddf5a3e2f8ee7ceb5a3bb3488e4e742a68ae13be1b5122c36f85e306e30d4311e6f6e5e59ad3df47b9a8bc93432dc12b58ea4dfea31d001d31dcc
+  checksum: 9de33e04e3cfdb4ca2c0c2994562d3875622f3f3616525e21de856891d6a9b9b859abfdff627addd14e46673923c68d6137abf89be7da689b0c7e0061b4e77ac
   languageName: node
   linkType: hard
 
@@ -748,46 +748,46 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-template@npm:0.3.29":
-  version: 0.3.29
-  resolution: "@goldstack/utils-template@npm:0.3.29"
+"@goldstack/utils-template@npm:0.3.30":
+  version: 0.3.30
+  resolution: "@goldstack/utils-template@npm:0.3.30"
   dependencies:
-    "@goldstack/utils-config": 0.3.27
-    "@goldstack/utils-sh": 0.4.26
-  checksum: eca7333828d64096b23e5b4394041eaa4294b1350b0aba75910bdde921929aa36f37acd1e0f0902352e63b702beb2316c70210b186634a4ae49a3a7b3444d1f1
+    "@goldstack/utils-config": 0.3.28
+    "@goldstack/utils-sh": 0.4.27
+  checksum: e6aebf970120c7ee1ace92fa7d0ae4264612c79b7e0594f1fb0274c9a99ed133e4d3a32fae1fb5a021f8e8ee0d143b71c0718d04078e50bdcac7e506511a5ef4
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform-aws@npm:0.3.60":
-  version: 0.3.60
-  resolution: "@goldstack/utils-terraform-aws@npm:0.3.60"
-  dependencies:
-    "@goldstack/infra-aws": 0.3.38
-    "@goldstack/utils-config": 0.3.27
-    "@goldstack/utils-log": 0.2.11
-    "@goldstack/utils-package": 0.3.32
-    "@goldstack/utils-sh": 0.4.26
-    "@goldstack/utils-terraform": 0.3.61
-    aws-sdk: 2.1001.0
-  checksum: 07511b22ecc4d7228888ff1c51cf67f7cd43aa64307affc2fedc2c16b6804d8aea4d4607209272ee08983c651ea822d24ed681f32b6313213ecd743d78a474a0
-  languageName: node
-  linkType: hard
-
-"@goldstack/utils-terraform@npm:0.3.61":
+"@goldstack/utils-terraform-aws@npm:0.3.61":
   version: 0.3.61
-  resolution: "@goldstack/utils-terraform@npm:0.3.61"
+  resolution: "@goldstack/utils-terraform-aws@npm:0.3.61"
   dependencies:
-    "@goldstack/infra": 0.3.30
-    "@goldstack/infra-aws": 0.3.38
-    "@goldstack/utils-config": 0.3.27
-    "@goldstack/utils-docker": 0.3.33
+    "@goldstack/infra-aws": 0.3.39
+    "@goldstack/utils-config": 0.3.28
     "@goldstack/utils-log": 0.2.11
-    "@goldstack/utils-package": 0.3.32
-    "@goldstack/utils-sh": 0.4.26
+    "@goldstack/utils-package": 0.3.33
+    "@goldstack/utils-sh": 0.4.27
+    "@goldstack/utils-terraform": 0.3.62
+    aws-sdk: 2.1001.0
+  checksum: ce8984b16175a736723c44285a50c633b28bdddd5091fe3cfd7930c582822549752f535248199b69c2cc8bdd9a7fb79e3875869ca7781f5d932b0d3210355376
+  languageName: node
+  linkType: hard
+
+"@goldstack/utils-terraform@npm:0.3.62":
+  version: 0.3.62
+  resolution: "@goldstack/utils-terraform@npm:0.3.62"
+  dependencies:
+    "@goldstack/infra": 0.3.31
+    "@goldstack/infra-aws": 0.3.39
+    "@goldstack/utils-config": 0.3.28
+    "@goldstack/utils-docker": 0.3.34
+    "@goldstack/utils-log": 0.2.11
+    "@goldstack/utils-package": 0.3.33
+    "@goldstack/utils-sh": 0.4.27
     json-stable-stringify: ^1.0.1
     prompt-sync: ^4.2.0
     yargs: ^15.4.1
-  checksum: 615fb4d82c5703b13bd0a5b98592b95d3d9c08ca8c9143d3ff4f4de247aca79c0aaa736449f9d2fcd30654966ad4339fed7e3e71e6319a3195b52565e164da3b
+  checksum: e2869619f67569e4ce001e84c0a7d614d0a0d655e29ac35498515ef7f8d632b73c83891851b90beffec61486dc48f90224b815f6599976677825198d7e9f0aa8
   languageName: node
   linkType: hard
 
@@ -2266,8 +2266,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app-nextjs-bootstrap-1@workspace:packages/app-nextjs-bootstrap-1"
   dependencies:
-    "@goldstack/template-nextjs": 0.3.101
-    "@goldstack/utils-sh": 0.4.26
+    "@goldstack/template-nextjs": 0.3.102
+    "@goldstack/utils-sh": 0.4.27
     "@testing-library/jest-dom": ^5.9.0
     "@testing-library/react": ^10.0.4
     "@types/jest": ^27.0.2
@@ -10395,7 +10395,7 @@ fsevents@~2.3.1:
   version: 0.0.0-use.local
   resolution: "project-nextjsbootstrap1@workspace:."
   dependencies:
-    "@goldstack/nodemonx": 0.3.27
+    "@goldstack/nodemonx": 0.3.28
     "@goldstack/utils-typescript-references": 0.1.6
     "@types/jest": ^27.0.2
     "@types/node": ^16.11.0
