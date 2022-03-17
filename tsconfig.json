@@ -30,8 +30,7 @@
   "include": [],
   "references": [
     {
-      "path": "packages/app-nextjs-bootstrap-1",
-      "name": "app-nextjs-bootstrap-1"
+      "path": "packages/app-nextjs-bootstrap-1"
     }
   ]
 }
