@@ -1011,14 +1011,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-typescript-references@npm:0.1.10":
-  version: 0.1.10
-  resolution: "@goldstack/utils-typescript-references@npm:0.1.10"
+"@goldstack/utils-typescript-references@npm:0.1.11":
+  version: 0.1.11
+  resolution: "@goldstack/utils-typescript-references@npm:0.1.11"
   dependencies:
     source-map-support: ^0.5.21
   bin:
     utils-typescript-references: ./bin/utils-typescript-references
-  checksum: dd871aa8b09c1b2959a4aecc11346c11992a37ccc2d27cdb35506eaffee327442af7944153f409905d6af6b843de62e0d4992e8476030679bc2d59296ca6682e
+  checksum: 3d6926c7f0fdf36b7e2b9c27054db6faa1c949956ba3f0200d1891a2213b78c2687fb6604617944a5c120286ae68e61d0a7c1525ae9e722cc5965c7f2f35c616
   languageName: node
   linkType: hard
 
@@ -10361,7 +10361,7 @@ fsevents@~2.1.2:
   resolution: "project-nextjsbootstrap1@workspace:."
   dependencies:
     "@goldstack/nodemonx": 0.3.30
-    "@goldstack/utils-typescript-references": 0.1.10
+    "@goldstack/utils-typescript-references": 0.1.11
     "@types/jest": ^27.4.1
     "@types/node": ^16.11.0
     "@typescript-eslint/eslint-plugin": ^4.14.0
