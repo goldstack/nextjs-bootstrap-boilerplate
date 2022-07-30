@@ -728,15 +728,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-nextjs@npm:0.3.115":
-  version: 0.3.115
-  resolution: "@goldstack/template-nextjs@npm:0.3.115"
+"@goldstack/template-nextjs@npm:0.3.116":
+  version: 0.3.116
+  resolution: "@goldstack/template-nextjs@npm:0.3.116"
   dependencies:
     "@goldstack/infra": 0.3.38
     "@goldstack/infra-aws": 0.3.47
     "@goldstack/template-static-website-aws": 0.3.103
     "@goldstack/utils-aws-cli": 0.3.57
-    "@goldstack/utils-aws-lambda": 0.1.34
+    "@goldstack/utils-aws-lambda": 0.1.35
     "@goldstack/utils-cli": 0.2.15
     "@goldstack/utils-config": 0.3.35
     "@goldstack/utils-log": 0.2.16
@@ -752,7 +752,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-nextjs: ./bin/template
-  checksum: c3bc6ecdf4a775109c84baeb93d23aa3e7f5ac798867fc66e2d9b5de22450749299846cd7dfa4a98b18ac91b2d997f8baa9a5aa147824f41d0c5c2875326a9a2
+  checksum: a4f88dc320d9c843bc41d31991e455c8756f34a5058abbc7e7cd3fe50f5c312074368919764a26171c9b37783933089b5ba6f6972c09b28e1e0835986d4298b0
   languageName: node
   linkType: hard
 
@@ -795,9 +795,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-aws-lambda@npm:0.1.34":
-  version: 0.1.34
-  resolution: "@goldstack/utils-aws-lambda@npm:0.1.34"
+"@goldstack/utils-aws-lambda@npm:0.1.35":
+  version: 0.1.35
+  resolution: "@goldstack/utils-aws-lambda@npm:0.1.35"
   dependencies:
     "@goldstack/infra-aws": 0.3.47
     "@goldstack/utils-aws-cli": 0.3.57
@@ -807,8 +807,8 @@ __metadata:
     archiver: ^5.3.1
     aws-sdk: 2.1055.0
     esbuild: ^0.14.48
-    esbuild-css-modules-server-plugin: 0.1.2
-  checksum: 3a8e1cf1a0821acc115d8e5cb9acefb4a1399f81c0be9bcbcf13c078655dcabeecf9fd1494d93300954e817eb03c6ad19b8581f078a7f8310dd376c860f89a95
+    esbuild-css-modules-server-plugin: 0.1.3
+  checksum: e0d66394cc510f71a8f368e5565846d0f630026d13bec3e082c3a373517af562c2c80fe24e35ea3fe540c866b0e643d5252d785c3a13785c55a4c650536486fa
   languageName: node
   linkType: hard
 
@@ -3027,7 +3027,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app-nextjs-bootstrap-1@workspace:packages/app-nextjs-bootstrap-1"
   dependencies:
-    "@goldstack/template-nextjs": 0.3.115
+    "@goldstack/template-nextjs": 0.3.116
     "@goldstack/utils-sh": 0.4.33
     "@testing-library/jest-dom": ^5.16.4
     "@testing-library/react": ^13.3.0
@@ -5573,13 +5573,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild-css-modules-server-plugin@npm:0.1.2":
-  version: 0.1.2
-  resolution: "esbuild-css-modules-server-plugin@npm:0.1.2"
+"esbuild-css-modules-server-plugin@npm:0.1.3":
+  version: 0.1.3
+  resolution: "esbuild-css-modules-server-plugin@npm:0.1.3"
   dependencies:
-    node-css-require: 0.1.1
+    node-css-require: 0.1.2
     postcss-modules-sync: ^1.0.0
-  checksum: 5638d8cc9ecf19795d29d4081ed6a0a9e9629217e1342bb02c16b4c11703cf403baa1514c7128025e96bb615c1076b3e7c578a713bb7ac1ae4032f145aedc6eb
+  checksum: 73fca6d8d8f0db49cf91669e09ad775801a616537168b46560ce699e0bf17e14b08a8eb5c477f9a4fb76f6c12bdb9e1635fdfd1affee6b8a07f89e16784a63a1
   languageName: node
   linkType: hard
 
@@ -10300,15 +10300,15 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"node-css-require@npm:0.1.1":
-  version: 0.1.1
-  resolution: "node-css-require@npm:0.1.1"
+"node-css-require@npm:0.1.2":
+  version: 0.1.2
+  resolution: "node-css-require@npm:0.1.2"
   dependencies:
     "@swc-node/register": ^1.5.1
     pirates: ^4.0.5
     postcss: ^8.4.14
     postcss-modules-sync: ^1.0.0
-  checksum: 2804d6a81316d689eabbfe42e38443a9d90f3d893d0ab6a819a74a24a460881c1bf40575b1f299bea1c97cc450dbedd0d25ea911da275d5ace45d4ed2b4a8ae7
+  checksum: d16fa1a73c47b9ffec1863d0252e2edea62e76bce2a42ab294f958802a445b636be7880c565af01d0dc44a64dee9087cb04760899a0aec9b715fd07a67ca1b8f
   languageName: node
   linkType: hard
 
