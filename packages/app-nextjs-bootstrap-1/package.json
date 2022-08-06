@@ -41,7 +41,7 @@
     "url-loader": "^4.1.1"
   },
   "devDependencies": {
-    "@goldstack/template-nextjs": "0.3.116",
+    "@goldstack/template-nextjs": "0.3.117",
     "@goldstack/utils-sh": "0.4.33",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -50,7 +50,7 @@
     "@types/react": "^18.0.15",
     "@types/testing-library__jest-dom": "^5.14.5",
     "@types/testing-library__react": "^10.2.0",
-    "concurrently": "^5.2.0",
+    "concurrently": "^7.3.0",
     "extracted-loader": "^1.0.7",
     "ignore-loader": "^0.1.2",
     "jest": "^28.1.0",

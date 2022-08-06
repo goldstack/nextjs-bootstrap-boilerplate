@@ -728,15 +728,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-nextjs@npm:0.3.116":
-  version: 0.3.116
-  resolution: "@goldstack/template-nextjs@npm:0.3.116"
+"@goldstack/template-nextjs@npm:0.3.117":
+  version: 0.3.117
+  resolution: "@goldstack/template-nextjs@npm:0.3.117"
   dependencies:
     "@goldstack/infra": 0.3.38
     "@goldstack/infra-aws": 0.3.47
     "@goldstack/template-static-website-aws": 0.3.103
     "@goldstack/utils-aws-cli": 0.3.57
-    "@goldstack/utils-aws-lambda": 0.1.35
+    "@goldstack/utils-aws-lambda": 0.1.36
     "@goldstack/utils-cli": 0.2.15
     "@goldstack/utils-config": 0.3.35
     "@goldstack/utils-log": 0.2.16
@@ -752,7 +752,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-nextjs: ./bin/template
-  checksum: a4f88dc320d9c843bc41d31991e455c8756f34a5058abbc7e7cd3fe50f5c312074368919764a26171c9b37783933089b5ba6f6972c09b28e1e0835986d4298b0
+  checksum: 66db9b871c068be7a545943f71e4bd837638d1eb2dcb8fa693f9ffb119ebcb20cae021da29eb80dbb62ce0de445d857c0c4f9141be94df5c2ef554b5157db740
   languageName: node
   linkType: hard
 
@@ -795,9 +795,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-aws-lambda@npm:0.1.35":
-  version: 0.1.35
-  resolution: "@goldstack/utils-aws-lambda@npm:0.1.35"
+"@goldstack/utils-aws-lambda@npm:0.1.36":
+  version: 0.1.36
+  resolution: "@goldstack/utils-aws-lambda@npm:0.1.36"
   dependencies:
     "@goldstack/infra-aws": 0.3.47
     "@goldstack/utils-aws-cli": 0.3.57
@@ -807,8 +807,8 @@ __metadata:
     archiver: ^5.3.1
     aws-sdk: 2.1055.0
     esbuild: ^0.14.48
-    esbuild-css-modules-server-plugin: 0.1.3
-  checksum: e0d66394cc510f71a8f368e5565846d0f630026d13bec3e082c3a373517af562c2c80fe24e35ea3fe540c866b0e643d5252d785c3a13785c55a4c650536486fa
+    esbuild-css-modules-server-plugin: 0.1.4
+  checksum: 03e2863d3401d6f2e2abbecd32fcc1b2c0f19bc72e5aed2da070a00d457e686b99eeb38b120a594a51852433e616f32e72ffcb798281108a5201e54445a218a9
   languageName: node
   linkType: hard
 
@@ -3027,7 +3027,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app-nextjs-bootstrap-1@workspace:packages/app-nextjs-bootstrap-1"
   dependencies:
-    "@goldstack/template-nextjs": 0.3.116
+    "@goldstack/template-nextjs": 0.3.117
     "@goldstack/utils-sh": 0.4.33
     "@testing-library/jest-dom": ^5.16.4
     "@testing-library/react": ^13.3.0
@@ -3036,7 +3036,7 @@ __metadata:
     "@types/react": ^18.0.15
     "@types/testing-library__jest-dom": ^5.14.5
     "@types/testing-library__react": ^10.2.0
-    concurrently: ^5.2.0
+    concurrently: ^7.3.0
     extracted-loader: ^1.0.7
     file-loader: ^6.2.0
     ignore-loader: ^0.1.2
@@ -3855,7 +3855,7 @@ __metadata:
     rimraf: ^2.6.3
     ssri: ^6.0.1
     unique-filename: ^1.1.1
-    y18n: ^4.0.0
+    y18n: ^4.0.1
   checksum: c88a72f36939b2523533946ffb27828443db5bf5995d761b35ae17af1eb6c8e20ac55b00b74c2ca900b2e1e917f0afba6847bf8cc16bee05ccca6aa150e0830c
   languageName: node
   linkType: hard
@@ -4487,22 +4487,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"concurrently@npm:^5.2.0":
-  version: 5.2.0
-  resolution: "concurrently@npm:5.2.0"
+"concurrently@npm:^7.3.0":
+  version: 7.3.0
+  resolution: "concurrently@npm:7.3.0"
   dependencies:
-    chalk: ^2.4.2
-    date-fns: ^2.0.1
-    lodash: ^4.17.15
-    read-pkg: ^4.0.1
-    rxjs: ^6.5.2
+    chalk: ^4.1.0
+    date-fns: ^2.16.1
+    lodash: ^4.17.21
+    rxjs: ^7.0.0
+    shell-quote: ^1.7.3
     spawn-command: ^0.0.2-1
-    supports-color: ^6.1.0
+    supports-color: ^8.1.0
     tree-kill: ^1.2.2
-    yargs: ^13.3.0
+    yargs: ^17.3.1
   bin:
-    concurrently: bin/concurrently.js
-  checksum: e01809b9f410b9f1557072e41effbabea0ccae2aedefe5b7107025916701feed987f178ef41be10b2474ec1ba0e856345a64b08010bab67b3b3599073dad58a5
+    concurrently: dist/bin/concurrently.js
+  checksum: 5de845e4947c550a6ff74ecc80e1897109abe339fe8a7fa117e7b8978362566ac4ee070e4475bdaa6fc453f780fadb9089739a02606e27e04affaa7dd8905d2d
   languageName: node
   linkType: hard
 
@@ -4798,10 +4798,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:^2.0.1":
-  version: 2.14.0
-  resolution: "date-fns@npm:2.14.0"
-  checksum: a4cf0866525f9a6825206b6e8805794f66c6eb49bc77d28e64edc29a2bde725024f10822b90f3fd5302b1621fa84686afe46e499df0315127af8aa85bca4356f
+"date-fns@npm:^2.16.1":
+  version: 2.29.1
+  resolution: "date-fns@npm:2.29.1"
+  checksum: 9d07f77dffc1eb8c213391bde39f2963ffe7c0019d9edde14487882d627224f3a39b963e6e99d0cc58afff220a6a1a7e8864d2789958f4eaa77714de94d4d076
   languageName: node
   linkType: hard
 
@@ -5573,13 +5573,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild-css-modules-server-plugin@npm:0.1.3":
-  version: 0.1.3
-  resolution: "esbuild-css-modules-server-plugin@npm:0.1.3"
+"esbuild-css-modules-server-plugin@npm:0.1.4":
+  version: 0.1.4
+  resolution: "esbuild-css-modules-server-plugin@npm:0.1.4"
   dependencies:
-    node-css-require: 0.1.2
+    node-css-require: 0.1.3
     postcss-modules-sync: ^1.0.0
-  checksum: 73fca6d8d8f0db49cf91669e09ad775801a616537168b46560ce699e0bf17e14b08a8eb5c477f9a4fb76f6c12bdb9e1635fdfd1affee6b8a07f89e16784a63a1
+  checksum: 8d954d7e1becbb0dde6ac364b5af32a81fd1a9c895c7971e5b9ff54dd3cb615886ec6d3112f953c1b171a60f8b1fc09adcfbcdce9d1be9a2be9c565fb656e94d
   languageName: node
   linkType: hard
 
@@ -9078,7 +9078,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"json-parse-better-errors@npm:^1.0.1, json-parse-better-errors@npm:^1.0.2":
+"json-parse-better-errors@npm:^1.0.2":
   version: 1.0.2
   resolution: "json-parse-better-errors@npm:1.0.2"
   checksum: ff2b5ba2a70e88fd97a3cb28c1840144c5ce8fae9cbeeddba15afa333a5c407cf0e42300cd0a2885dbb055227fe68d405070faad941beeffbfde9cf3b2c78c5d
@@ -9444,7 +9444,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.0.0, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:~4.17.10, lodash@npm:~4.17.21":
+"lodash@npm:^4.0.0, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.21, lodash@npm:~4.17.10, lodash@npm:~4.17.21":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
@@ -10300,15 +10300,15 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"node-css-require@npm:0.1.2":
-  version: 0.1.2
-  resolution: "node-css-require@npm:0.1.2"
+"node-css-require@npm:0.1.3":
+  version: 0.1.3
+  resolution: "node-css-require@npm:0.1.3"
   dependencies:
     "@swc-node/register": ^1.5.1
     pirates: ^4.0.5
     postcss: ^8.4.14
     postcss-modules-sync: ^1.0.0
-  checksum: d16fa1a73c47b9ffec1863d0252e2edea62e76bce2a42ab294f958802a445b636be7880c565af01d0dc44a64dee9087cb04760899a0aec9b715fd07a67ca1b8f
+  checksum: 97576ced089e6b245b24149c9c19bb51015c91d135af1f22cac470000fcc668bc30c3d2041d9f11eb6fbe4778d8d0c058b92b4b49ac832c99a615cf57d4df9a9
   languageName: node
   linkType: hard
 
@@ -10478,7 +10478,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"normalize-package-data@npm:^2.3.2, normalize-package-data@npm:^2.5.0":
+"normalize-package-data@npm:^2.5.0":
   version: 2.5.0
   resolution: "normalize-package-data@npm:2.5.0"
   dependencies:
@@ -10915,16 +10915,6 @@ fsevents@~2.1.2:
     is-decimal: ^1.0.0
     is-hexadecimal: ^1.0.0
   checksum: 7addfd3e7d747521afac33c8121a5f23043c6973809756920d37e806639b4898385d386fcf4b3c8e2ecf1bc28aac5ae97df0b112d5042034efbe80f44081ebce
-  languageName: node
-  linkType: hard
-
-"parse-json@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "parse-json@npm:4.0.0"
-  dependencies:
-    error-ex: ^1.3.1
-    json-parse-better-errors: ^1.0.1
-  checksum: 0fe227d410a61090c247e34fa210552b834613c006c2c64d9a05cfe9e89cf8b4246d1246b1a99524b53b313e9ac024438d0680f67e33eaed7e6f38db64cfe7b5
   languageName: node
   linkType: hard
 
@@ -11765,17 +11755,6 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"read-pkg@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "read-pkg@npm:4.0.1"
-  dependencies:
-    normalize-package-data: ^2.3.2
-    parse-json: ^4.0.0
-    pify: ^3.0.0
-  checksum: 56193535486c50a0a40039e4a92f68676362f5a7160628ca4d856c62509e125220f69c562a32940dcc51e3dcd38211af69756bbb5b8a1aed1d09be1bedd1e1a5
-  languageName: node
-  linkType: hard
-
 "read-pkg@npm:^5.2.0":
   version: 5.2.0
   resolution: "read-pkg@npm:5.2.0"
@@ -12306,12 +12285,12 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"rxjs@npm:^6.5.2":
-  version: 6.5.5
-  resolution: "rxjs@npm:6.5.5"
+"rxjs@npm:^7.0.0":
+  version: 7.5.6
+  resolution: "rxjs@npm:7.5.6"
   dependencies:
-    tslib: ^1.9.0
-  checksum: fc578fc34b73e5f35bfdd71cabf73113453e87917aecead0f3459e4403c4c4a41871c726271d9b6fe4a5e966efb02f7b1a5db2fc08dbe9ba5e239368e15adc5f
+    tslib: ^2.1.0
+  checksum: fc05f01364a74dac57490fb3e07ea63b422af04017fae1db641a009073f902ef69f285c5daac31359620dc8d9aee7d81e42b370ca2a8573d1feae0b04329383b
   languageName: node
   linkType: hard
 
@@ -12591,6 +12570,13 @@ resolve@^1.20.0:
   version: 3.0.0
   resolution: "shebang-regex@npm:3.0.0"
   checksum: 1a2bcae50de99034fcd92ad4212d8e01eedf52c7ec7830eedcf886622804fe36884278f2be8be0ea5fde3fd1c23911643a4e0f726c8685b61871c8908af01222
+  languageName: node
+  linkType: hard
+
+"shell-quote@npm:^1.7.3":
+  version: 1.7.3
+  resolution: "shell-quote@npm:1.7.3"
+  checksum: aca58e73a3a5d933d02e0bdddedc53ee14f7c2ec264f97ac915b9d4482d077a38e422aa664631d60a672cd3cdb4054eb2e6c0303f54882453dacb6483e482d34
   languageName: node
   linkType: hard
 
@@ -13389,15 +13375,6 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"supports-color@npm:^6.1.0":
-  version: 6.1.0
-  resolution: "supports-color@npm:6.1.0"
-  dependencies:
-    has-flag: ^3.0.0
-  checksum: 74358f9535c83ee113fbaac354b11e808060f6e7d8722082ee43af3578469134e89d00026dce2a6b93ce4e5b89d0e9a10f638b2b9f64c7838c2fb2883a47b3d5
-  languageName: node
-  linkType: hard
-
 "supports-color@npm:^7.0.0, supports-color@npm:^7.1.0":
   version: 7.1.0
   resolution: "supports-color@npm:7.1.0"
@@ -13407,7 +13384,7 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"supports-color@npm:^8.0.0":
+"supports-color@npm:^8.0.0, supports-color@npm:^8.1.0":
   version: 8.1.1
   resolution: "supports-color@npm:8.1.1"
   dependencies:
@@ -13848,7 +13825,7 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"tslib@npm:*, tslib@npm:^2.4.0":
+"tslib@npm:*, tslib@npm:^2.1.0, tslib@npm:^2.4.0":
   version: 2.4.0
   resolution: "tslib@npm:2.4.0"
   checksum: 8c4aa6a3c5a754bf76aefc38026134180c053b7bd2f81338cb5e5ebf96fefa0f417bff221592bf801077f5bf990562f6264fecbc42cd3309b33872cb6fc3b113
@@ -14005,7 +13982,7 @@ resolve@^1.20.0:
 
 "typescript@patch:typescript@^4.7.4#~builtin<compat/typescript>":
   version: 4.7.4
-  resolution: "typescript@patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"
+  resolution: "typescript@patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
@@ -14855,10 +14832,10 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"y18n@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "y18n@npm:4.0.0"
-  checksum: 66e22d38bf994723b625dcc0159f6fd4068c511f8c565df39e8aa53426f5f31e4a9664a8d7099fbde2c22a1c71be2cb60e83f4c2961a5ee48672418d825a7bc2
+"y18n@npm:^4.0.0, y18n@npm:^4.0.1":
+  version: 4.0.3
+  resolution: "y18n@npm:4.0.3"
+  checksum: 014dfcd9b5f4105c3bb397c1c8c6429a9df004aa560964fb36732bfb999bfe83d45ae40aeda5b55d21b1ee53d8291580a32a756a443e064317953f08025b1aa4
   languageName: node
   linkType: hard
 
@@ -14917,7 +14894,7 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"yargs@npm:^13.3.0, yargs@npm:^13.3.2":
+"yargs@npm:^13.3.2":
   version: 13.3.2
   resolution: "yargs@npm:13.3.2"
   dependencies:
@@ -14929,7 +14906,7 @@ resolve@^1.20.0:
     set-blocking: ^2.0.0
     string-width: ^3.0.0
     which-module: ^2.0.0
-    y18n: ^4.0.0
+    y18n: ^4.0.1
     yargs-parser: ^13.1.2
   checksum: 75c13e837eb2bb25717957ba58d277e864efc0cca7f945c98bdf6477e6ec2f9be6afa9ed8a876b251a21423500c148d7b91e88dee7adea6029bdec97af1ef3e8
   languageName: node
