@@ -728,15 +728,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-nextjs@npm:0.3.117":
-  version: 0.3.117
-  resolution: "@goldstack/template-nextjs@npm:0.3.117"
+"@goldstack/template-nextjs@npm:0.3.118":
+  version: 0.3.118
+  resolution: "@goldstack/template-nextjs@npm:0.3.118"
   dependencies:
     "@goldstack/infra": 0.3.38
     "@goldstack/infra-aws": 0.3.47
     "@goldstack/template-static-website-aws": 0.3.103
     "@goldstack/utils-aws-cli": 0.3.57
-    "@goldstack/utils-aws-lambda": 0.1.36
+    "@goldstack/utils-aws-lambda": 0.1.37
     "@goldstack/utils-cli": 0.2.15
     "@goldstack/utils-config": 0.3.35
     "@goldstack/utils-log": 0.2.16
@@ -752,7 +752,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-nextjs: ./bin/template
-  checksum: 66db9b871c068be7a545943f71e4bd837638d1eb2dcb8fa693f9ffb119ebcb20cae021da29eb80dbb62ce0de445d857c0c4f9141be94df5c2ef554b5157db740
+  checksum: d80baba9af96a61db3276393eafac7f15f0895dcfa75beb99dc3b96d919573512ddc42e291dca3eb788cf8fbd8dc005bed47f1c98f8b3b5026f262bcd1279b5f
   languageName: node
   linkType: hard
 
@@ -795,9 +795,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-aws-lambda@npm:0.1.36":
-  version: 0.1.36
-  resolution: "@goldstack/utils-aws-lambda@npm:0.1.36"
+"@goldstack/utils-aws-lambda@npm:0.1.37":
+  version: 0.1.37
+  resolution: "@goldstack/utils-aws-lambda@npm:0.1.37"
   dependencies:
     "@goldstack/infra-aws": 0.3.47
     "@goldstack/utils-aws-cli": 0.3.57
@@ -808,7 +808,7 @@ __metadata:
     aws-sdk: 2.1055.0
     esbuild: ^0.14.48
     esbuild-css-modules-server-plugin: 0.1.4
-  checksum: 03e2863d3401d6f2e2abbecd32fcc1b2c0f19bc72e5aed2da070a00d457e686b99eeb38b120a594a51852433e616f32e72ffcb798281108a5201e54445a218a9
+  checksum: e29b5c1cec5bfaf5411199a3e8432a8d592e359c55b1e59fa1868e5b0b0fe29e8965c1ffc8eb25a632cd59e5df425839cc71bd1c21c3f278ea22ee7c3be2b443
   languageName: node
   linkType: hard
 
@@ -3027,7 +3027,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app-nextjs-bootstrap-1@workspace:packages/app-nextjs-bootstrap-1"
   dependencies:
-    "@goldstack/template-nextjs": 0.3.117
+    "@goldstack/template-nextjs": 0.3.118
     "@goldstack/utils-sh": 0.4.33
     "@testing-library/jest-dom": ^5.16.4
     "@testing-library/react": ^13.3.0
