@@ -728,9 +728,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-nextjs@npm:0.3.118":
-  version: 0.3.118
-  resolution: "@goldstack/template-nextjs@npm:0.3.118"
+"@goldstack/template-nextjs@npm:0.3.119":
+  version: 0.3.119
+  resolution: "@goldstack/template-nextjs@npm:0.3.119"
   dependencies:
     "@goldstack/infra": 0.3.38
     "@goldstack/infra-aws": 0.3.47
@@ -752,7 +752,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-nextjs: ./bin/template
-  checksum: d80baba9af96a61db3276393eafac7f15f0895dcfa75beb99dc3b96d919573512ddc42e291dca3eb788cf8fbd8dc005bed47f1c98f8b3b5026f262bcd1279b5f
+  checksum: 32a37cd461e10110ad4e9f05c1eb9fbe0234d3802ccb3bfc26674fd791266832691ba45a93b402a97f230d970f5b955107a32ab0a4a5ff16352dfe1faaa9af3e
   languageName: node
   linkType: hard
 
@@ -3027,7 +3027,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app-nextjs-bootstrap-1@workspace:packages/app-nextjs-bootstrap-1"
   dependencies:
-    "@goldstack/template-nextjs": 0.3.118
+    "@goldstack/template-nextjs": 0.3.119
     "@goldstack/utils-sh": 0.4.33
     "@testing-library/jest-dom": ^5.16.4
     "@testing-library/react": ^13.3.0
