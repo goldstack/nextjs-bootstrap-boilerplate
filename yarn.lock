@@ -735,13 +735,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-nextjs@npm:0.5.8":
-  version: 0.5.8
-  resolution: "@goldstack/template-nextjs@npm:0.5.8"
+"@goldstack/template-nextjs@npm:0.5.9":
+  version: 0.5.9
+  resolution: "@goldstack/template-nextjs@npm:0.5.9"
   dependencies:
     "@goldstack/infra": 0.4.4
     "@goldstack/infra-aws": 0.4.7
-    "@goldstack/template-static-website-aws": 0.5.7
+    "@goldstack/template-static-website-aws": 0.5.8
     "@goldstack/utils-aws-cli": 0.4.7
     "@goldstack/utils-aws-lambda": 0.3.8
     "@goldstack/utils-cli": 0.3.4
@@ -759,13 +759,13 @@ __metadata:
   bin:
     template: ./bin/template
     template-nextjs: ./bin/template
-  checksum: 8fdee81a4c81e4340875ca0977210380d2772ffd89891aa50fdfff1fc3c9f33d894153c9ad967a00df98ee54683e046072a11342d8f44820f1131e5718c29663
+  checksum: 30d1d50581c575c56f2dd5d5a80ad7ed23c9d9b1c402759d0adedfb0458eec010b251eabc7100b08257d76a78c1f67dd11d1cb7224f66e400fbab161f598d712
   languageName: node
   linkType: hard
 
-"@goldstack/template-static-website-aws@npm:0.5.7":
-  version: 0.5.7
-  resolution: "@goldstack/template-static-website-aws@npm:0.5.7"
+"@goldstack/template-static-website-aws@npm:0.5.8":
+  version: 0.5.8
+  resolution: "@goldstack/template-static-website-aws@npm:0.5.8"
   dependencies:
     "@goldstack/infra": 0.4.4
     "@goldstack/infra-aws": 0.4.7
@@ -775,7 +775,7 @@ __metadata:
     "@goldstack/utils-log": 0.3.4
     "@goldstack/utils-package": 0.4.4
     "@goldstack/utils-package-config": 0.4.4
-    "@goldstack/utils-s3-deployment": 0.5.7
+    "@goldstack/utils-s3-deployment": 0.5.8
     "@goldstack/utils-sh": 0.5.4
     "@goldstack/utils-template": 0.4.4
     "@goldstack/utils-terraform": 0.4.7
@@ -785,7 +785,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-static-website-aws: ./bin/template
-  checksum: f711fdd43493aa2dd5113152405ea32352cc742dd76d2e5dee34cd057191b88c35dd45d1763c4fc0b295bf21d1862002e48c098a3993edfe2aba091d1675dc35
+  checksum: 455b40f0caff0c1f063a85131b7c1fa06a465f35ba8065658ecc9183292b865f1926c3eae80499445a8a159f103b076e910aefc46dfa64bde84ad377f017df53
   languageName: node
   linkType: hard
 
@@ -930,15 +930,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-s3-deployment@npm:0.5.7":
-  version: 0.5.7
-  resolution: "@goldstack/utils-s3-deployment@npm:0.5.7"
+"@goldstack/utils-s3-deployment@npm:0.5.8":
+  version: 0.5.8
+  resolution: "@goldstack/utils-s3-deployment@npm:0.5.8"
   dependencies:
     "@goldstack/infra-aws": 0.4.7
     "@goldstack/utils-aws-cli": 0.4.7
     "@goldstack/utils-docker": 0.4.4
     "@goldstack/utils-sh": 0.5.4
-  checksum: 87c88bc6adf801c98708e9374eb4ec7283bf0eb4dc9969f5200105b2ce087f6e9cc009ceb87ebc643e89439f92b6ffc73877ca4398649cbb468fbc3596a8a7ed
+  checksum: 05e849da77914f76b70eb508462d209fc657cf2d9d8a333f48bc6f22cb339c45f01fb26ed66822e360332931fee512d9cd43e3e50b9b878933ad331196181eb2
   languageName: node
   linkType: hard
 
@@ -3013,7 +3013,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app-nextjs-bootstrap-1@workspace:packages/app-nextjs-bootstrap-1"
   dependencies:
-    "@goldstack/template-nextjs": 0.5.8
+    "@goldstack/template-nextjs": 0.5.9
     "@goldstack/utils-sh": 0.5.4
     "@testing-library/jest-dom": ^5.16.4
     "@testing-library/react": ^13.3.0
