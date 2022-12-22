@@ -726,15 +726,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-nextjs@npm:0.5.9":
-  version: 0.5.9
-  resolution: "@goldstack/template-nextjs@npm:0.5.9"
+"@goldstack/template-nextjs@npm:0.5.10":
+  version: 0.5.10
+  resolution: "@goldstack/template-nextjs@npm:0.5.10"
   dependencies:
     "@goldstack/infra": 0.4.4
     "@goldstack/infra-aws": 0.4.7
     "@goldstack/template-static-website-aws": 0.5.8
     "@goldstack/utils-aws-cli": 0.4.7
-    "@goldstack/utils-aws-lambda": 0.3.8
+    "@goldstack/utils-aws-lambda": 0.3.9
     "@goldstack/utils-cli": 0.3.4
     "@goldstack/utils-config": 0.4.4
     "@goldstack/utils-log": 0.3.4
@@ -750,7 +750,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-nextjs: ./bin/template
-  checksum: 30d1d50581c575c56f2dd5d5a80ad7ed23c9d9b1c402759d0adedfb0458eec010b251eabc7100b08257d76a78c1f67dd11d1cb7224f66e400fbab161f598d712
+  checksum: d7e149a0afaeb4acdcc8842116b7c43eabca8522cfe524f175724896a79509000c96398625c77d7c5c6b0372d512861efff5969d990b919829a31baddbe4dc58
   languageName: node
   linkType: hard
 
@@ -793,9 +793,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-aws-lambda@npm:0.3.8":
-  version: 0.3.8
-  resolution: "@goldstack/utils-aws-lambda@npm:0.3.8"
+"@goldstack/utils-aws-lambda@npm:0.3.9":
+  version: 0.3.9
+  resolution: "@goldstack/utils-aws-lambda@npm:0.3.9"
   dependencies:
     "@goldstack/infra-aws": 0.4.7
     "@goldstack/utils-aws-cli": 0.4.7
@@ -805,8 +805,8 @@ __metadata:
     archiver: ^5.3.1
     aws-sdk: ^2.1222.0
     esbuild: ^0.15.5
-    esbuild-ssr-css-modules-plugin: 0.1.2
-  checksum: ddad612d632a8edb7d3574275b947284b601823b483d3b883d834183a0851de38ff8099dd9a415bab4c76e1302cf431944581507f5c2df9d31519f86e3ed5fbc
+    esbuild-ssr-css-modules-plugin: 0.1.3
+  checksum: a5411a793c134ede3eea333ec6c6846f6e19cb8988978262e5b2c3b2b41f46afffd50674a9a292da2a24619a986c2c304a6778fdd3929c55c840677c0ef2a286
   languageName: node
   linkType: hard
 
@@ -3011,7 +3011,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app-nextjs-bootstrap-1@workspace:packages/app-nextjs-bootstrap-1"
   dependencies:
-    "@goldstack/template-nextjs": 0.5.9
+    "@goldstack/template-nextjs": 0.5.10
     "@goldstack/utils-sh": 0.5.4
     "@testing-library/jest-dom": ^5.16.4
     "@testing-library/react": ^13.3.0
@@ -5598,14 +5598,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild-ssr-css-modules-plugin@npm:0.1.2":
-  version: 0.1.2
-  resolution: "esbuild-ssr-css-modules-plugin@npm:0.1.2"
+"esbuild-ssr-css-modules-plugin@npm:0.1.3":
+  version: 0.1.3
+  resolution: "esbuild-ssr-css-modules-plugin@npm:0.1.3"
   dependencies:
     node-css-require: 0.4.4
     postcss-modules-sync: ^1.0.0
     sha256: ^0.2.0
-  checksum: 75d002b925202f0fc118c9de91ea8f22eb6985ea5f3f4f17c91f5506dde32b238dec49f4f22365fad3d0105fbb8082cc9020eefb2902692469a0aa86bd01e7cf
+  checksum: 2b6808fc1263acdeb701d94370098eef1f0ba6036ff3e975924a0878bbe228a835942d6463da671cfd235722c8ebc5e1da96adc52fa2a07293ee8bbeee09eb2e
   languageName: node
   linkType: hard
 

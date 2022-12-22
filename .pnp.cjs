@@ -1142,15 +1142,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-nextjs", [\
-        ["npm:0.5.9", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-nextjs-npm-0.5.9-f57a9be79e-30d1d50581.zip/node_modules/@goldstack/template-nextjs/",\
+        ["npm:0.5.10", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-nextjs-npm-0.5.10-4d088e9bb8-d7e149a0af.zip/node_modules/@goldstack/template-nextjs/",\
           "packageDependencies": [\
-            ["@goldstack/template-nextjs", "npm:0.5.9"],\
+            ["@goldstack/template-nextjs", "npm:0.5.10"],\
             ["@goldstack/infra", "npm:0.4.4"],\
             ["@goldstack/infra-aws", "npm:0.4.7"],\
             ["@goldstack/template-static-website-aws", "npm:0.5.8"],\
             ["@goldstack/utils-aws-cli", "npm:0.4.7"],\
-            ["@goldstack/utils-aws-lambda", "npm:0.3.8"],\
+            ["@goldstack/utils-aws-lambda", "npm:0.3.9"],\
             ["@goldstack/utils-cli", "npm:0.3.4"],\
             ["@goldstack/utils-config", "npm:0.4.4"],\
             ["@goldstack/utils-log", "npm:0.3.4"],\
@@ -1161,7 +1161,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@goldstack/utils-terraform", "npm:0.4.7"],\
             ["glob", "npm:8.0.3"],\
             ["source-map-support", "npm:0.5.21"],\
-            ["webpack", "virtual:f57a9be79e5d3ca874dad554ee000bd175e2ad59d0b51000248f7480831b26e16388c38fc465487e6f0ac554f3dfe41ee697885f37425b89bbe89de47d296f5b#npm:4.43.0"],\
+            ["webpack", "virtual:4d088e9bb8f467aaba3920d38d2fd04abd3ec207ca4b8f591d8a52dc7ab342988e272b885d852560d99ce41b59143477c86562e02b17c2e729191f2346cfec48#npm:4.43.0"],\
             ["yargs", "npm:17.5.1"]\
           ],\
           "linkType": "HARD"\
@@ -1206,19 +1206,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/utils-aws-lambda", [\
-        ["npm:0.3.8", {\
-          "packageLocation": "./.yarn/cache/@goldstack-utils-aws-lambda-npm-0.3.8-08c32a046c-ddad612d63.zip/node_modules/@goldstack/utils-aws-lambda/",\
+        ["npm:0.3.9", {\
+          "packageLocation": "./.yarn/cache/@goldstack-utils-aws-lambda-npm-0.3.9-df0a177a79-a5411a793c.zip/node_modules/@goldstack/utils-aws-lambda/",\
           "packageDependencies": [\
-            ["@goldstack/utils-aws-lambda", "npm:0.3.8"],\
+            ["@goldstack/utils-aws-lambda", "npm:0.3.9"],\
             ["@goldstack/infra-aws", "npm:0.4.7"],\
             ["@goldstack/utils-aws-cli", "npm:0.4.7"],\
             ["@goldstack/utils-log", "npm:0.3.4"],\
             ["@goldstack/utils-sh", "npm:0.5.4"],\
-            ["@yarnpkg/esbuild-plugin-pnp", "virtual:08c32a046c6e4839963782d601b70eaa1324af721d720d9f541c4010f28ea100257c9478a8de7af03d8f43e93b71b4bc7d8267a13ad87089e026201776e5b46c#npm:3.0.0-rc.15"],\
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:df0a177a797da42d7936be7a9c5146f6b76dbaf7514ca2d2a9a3a256d245cac265e34c210479d61f73495f6d9a549ca681825ddca90b266b123c0b364f54fdd7#npm:3.0.0-rc.15"],\
             ["archiver", "npm:5.3.1"],\
             ["aws-sdk", "npm:2.1222.0"],\
             ["esbuild", "npm:0.15.5"],\
-            ["esbuild-ssr-css-modules-plugin", "npm:0.1.2"]\
+            ["esbuild-ssr-css-modules-plugin", "npm:0.1.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3489,10 +3489,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:08c32a046c6e4839963782d601b70eaa1324af721d720d9f541c4010f28ea100257c9478a8de7af03d8f43e93b71b4bc7d8267a13ad87089e026201776e5b46c#npm:3.0.0-rc.15", {\
-          "packageLocation": "./.yarn/__virtual__/@yarnpkg-esbuild-plugin-pnp-virtual-23fe2f387b/0/cache/@yarnpkg-esbuild-plugin-pnp-npm-3.0.0-rc.15-b916c218b3-04da15355a.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",\
+        ["virtual:df0a177a797da42d7936be7a9c5146f6b76dbaf7514ca2d2a9a3a256d245cac265e34c210479d61f73495f6d9a549ca681825ddca90b266b123c0b364f54fdd7#npm:3.0.0-rc.15", {\
+          "packageLocation": "./.yarn/__virtual__/@yarnpkg-esbuild-plugin-pnp-virtual-f0116b0deb/0/cache/@yarnpkg-esbuild-plugin-pnp-npm-3.0.0-rc.15-b916c218b3-04da15355a.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",\
           "packageDependencies": [\
-            ["@yarnpkg/esbuild-plugin-pnp", "virtual:08c32a046c6e4839963782d601b70eaa1324af721d720d9f541c4010f28ea100257c9478a8de7af03d8f43e93b71b4bc7d8267a13ad87089e026201776e5b46c#npm:3.0.0-rc.15"],\
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:df0a177a797da42d7936be7a9c5146f6b76dbaf7514ca2d2a9a3a256d245cac265e34c210479d61f73495f6d9a549ca681825ddca90b266b123c0b364f54fdd7#npm:3.0.0-rc.15"],\
             ["@types/esbuild", null],\
             ["esbuild", "npm:0.15.5"],\
             ["tslib", "npm:2.4.0"]\
@@ -3812,7 +3812,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/app-nextjs-bootstrap-1/",\
           "packageDependencies": [\
             ["app-nextjs-bootstrap-1", "workspace:packages/app-nextjs-bootstrap-1"],\
-            ["@goldstack/template-nextjs", "npm:0.5.9"],\
+            ["@goldstack/template-nextjs", "npm:0.5.10"],\
             ["@goldstack/utils-sh", "npm:0.5.4"],\
             ["@testing-library/jest-dom", "npm:5.16.4"],\
             ["@testing-library/react", "virtual:16ea8aa1a6e3d7e3caad7a728129134ccf425225f70e02114f24bbb7b9874cedac04c00dafd9c218b946bfbd84b030abb0b024f90a0bd869ff619a92b51d4834#npm:13.3.0"],\
@@ -6810,10 +6810,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["esbuild-ssr-css-modules-plugin", [\
-        ["npm:0.1.2", {\
-          "packageLocation": "./.yarn/cache/esbuild-ssr-css-modules-plugin-npm-0.1.2-be21b9901a-75d002b925.zip/node_modules/esbuild-ssr-css-modules-plugin/",\
+        ["npm:0.1.3", {\
+          "packageLocation": "./.yarn/cache/esbuild-ssr-css-modules-plugin-npm-0.1.3-679f999ccf-2b6808fc12.zip/node_modules/esbuild-ssr-css-modules-plugin/",\
           "packageDependencies": [\
-            ["esbuild-ssr-css-modules-plugin", "npm:0.1.2"],\
+            ["esbuild-ssr-css-modules-plugin", "npm:0.1.3"],\
             ["node-css-require", "npm:0.4.4"],\
             ["postcss-modules-sync", "npm:1.0.0"],\
             ["sha256", "npm:0.2.0"]\
@@ -15522,10 +15522,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:b80378bdd6868cbb7aa3298a52307a67b1c655e428033cbac39ab77900eb70dfe9b2f163ef29ba47b21a5c5d26eda14a8dea97b49ec03ef9679de08911618bd3#npm:1.4.5", {\
-          "packageLocation": "./.yarn/__virtual__/terser-webpack-plugin-virtual-2cc6386170/0/cache/terser-webpack-plugin-npm-1.4.5-d14c27a9f3-02aada8092.zip/node_modules/terser-webpack-plugin/",\
+        ["virtual:3127cc2dcce6f0d8f8b40dc24de902279354e9b2967eed1afce0a7bd2db5fc14b795c761f5b4b253eafee940adde4616cffe596979d96762b33b986a1d96dcca#npm:1.4.5", {\
+          "packageLocation": "./.yarn/__virtual__/terser-webpack-plugin-virtual-46fc078b2e/0/cache/terser-webpack-plugin-npm-1.4.5-d14c27a9f3-02aada8092.zip/node_modules/terser-webpack-plugin/",\
           "packageDependencies": [\
-            ["terser-webpack-plugin", "virtual:b80378bdd6868cbb7aa3298a52307a67b1c655e428033cbac39ab77900eb70dfe9b2f163ef29ba47b21a5c5d26eda14a8dea97b49ec03ef9679de08911618bd3#npm:1.4.5"],\
+            ["terser-webpack-plugin", "virtual:3127cc2dcce6f0d8f8b40dc24de902279354e9b2967eed1afce0a7bd2db5fc14b795c761f5b4b253eafee940adde4616cffe596979d96762b33b986a1d96dcca#npm:1.4.5"],\
             ["@types/webpack", null],\
             ["cacache", "npm:12.0.4"],\
             ["find-cache-dir", "npm:2.1.0"],\
@@ -15534,7 +15534,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["serialize-javascript", "npm:4.0.0"],\
             ["source-map", "npm:0.6.1"],\
             ["terser", "npm:4.8.1"],\
-            ["webpack", "virtual:f57a9be79e5d3ca874dad554ee000bd175e2ad59d0b51000248f7480831b26e16388c38fc465487e6f0ac554f3dfe41ee697885f37425b89bbe89de47d296f5b#npm:4.43.0"],\
+            ["webpack", "virtual:4d088e9bb8f467aaba3920d38d2fd04abd3ec207ca4b8f591d8a52dc7ab342988e272b885d852560d99ce41b59143477c86562e02b17c2e729191f2346cfec48#npm:4.43.0"],\
             ["webpack-sources", "npm:1.4.3"],\
             ["worker-farm", "npm:1.7.0"]\
           ],\
@@ -16695,10 +16695,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:f57a9be79e5d3ca874dad554ee000bd175e2ad59d0b51000248f7480831b26e16388c38fc465487e6f0ac554f3dfe41ee697885f37425b89bbe89de47d296f5b#npm:4.43.0", {\
-          "packageLocation": "./.yarn/__virtual__/webpack-virtual-b80378bdd6/0/cache/webpack-npm-4.43.0-e073844e15-d665115be9.zip/node_modules/webpack/",\
+        ["virtual:4d088e9bb8f467aaba3920d38d2fd04abd3ec207ca4b8f591d8a52dc7ab342988e272b885d852560d99ce41b59143477c86562e02b17c2e729191f2346cfec48#npm:4.43.0", {\
+          "packageLocation": "./.yarn/__virtual__/webpack-virtual-3127cc2dcc/0/cache/webpack-npm-4.43.0-e073844e15-d665115be9.zip/node_modules/webpack/",\
           "packageDependencies": [\
-            ["webpack", "virtual:f57a9be79e5d3ca874dad554ee000bd175e2ad59d0b51000248f7480831b26e16388c38fc465487e6f0ac554f3dfe41ee697885f37425b89bbe89de47d296f5b#npm:4.43.0"],\
+            ["webpack", "virtual:4d088e9bb8f467aaba3920d38d2fd04abd3ec207ca4b8f591d8a52dc7ab342988e272b885d852560d99ce41b59143477c86562e02b17c2e729191f2346cfec48#npm:4.43.0"],\
             ["@types/webpack-cli", null],\
             ["@types/webpack-command", null],\
             ["@webassemblyjs/ast", "npm:1.9.0"],\
@@ -16721,7 +16721,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["node-libs-browser", "npm:2.2.1"],\
             ["schema-utils", "npm:1.0.0"],\
             ["tapable", "npm:1.1.3"],\
-            ["terser-webpack-plugin", "virtual:b80378bdd6868cbb7aa3298a52307a67b1c655e428033cbac39ab77900eb70dfe9b2f163ef29ba47b21a5c5d26eda14a8dea97b49ec03ef9679de08911618bd3#npm:1.4.5"],\
+            ["terser-webpack-plugin", "virtual:3127cc2dcce6f0d8f8b40dc24de902279354e9b2967eed1afce0a7bd2db5fc14b795c761f5b4b253eafee940adde4616cffe596979d96762b33b986a1d96dcca#npm:1.4.5"],\
             ["watchpack", "npm:1.7.4"],\
             ["webpack-cli", null],\
             ["webpack-command", null],\
