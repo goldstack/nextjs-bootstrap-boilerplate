@@ -1323,7 +1323,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@goldstack/utils-cli", "npm:0.2.4"],\
             ["@goldstack/utils-docs", "npm:0.3.11"],\
             ["@goldstack/utils-sh", "npm:0.4.7"],\
-            ["@types/yargs", "npm:15.0.14"],\
+            ["@types/yargs", "npm:15.0.15"],\
             ["source-map-support", "npm:0.5.21"],\
             ["yargs", "npm:15.4.1"]\
           ],\
@@ -3016,10 +3016,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/yargs", [\
-        ["npm:15.0.14", {\
-          "packageLocation": "./.yarn/cache/@types-yargs-npm-15.0.14-07ba249dbb-8e358aeb8f.zip/node_modules/@types/yargs/",\
+        ["npm:15.0.15", {\
+          "packageLocation": "./.yarn/cache/@types-yargs-npm-15.0.15-b73a9d1c59-3420f6bcc5.zip/node_modules/@types/yargs/",\
           "packageDependencies": [\
-            ["@types/yargs", "npm:15.0.14"],\
+            ["@types/yargs", "npm:15.0.15"],\
             ["@types/yargs-parser", "npm:15.0.0"]\
           ],\
           "linkType": "HARD"\
