@@ -54,6 +54,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT"\
         }]\
       ]],\
+      ["@adobe/css-tools", [\
+        ["npm:4.2.0", {\
+          "packageLocation": "./.yarn/cache/@adobe-css-tools-npm-4.2.0-26da6de88a-dc5cc92ba3.zip/node_modules/@adobe/css-tools/",\
+          "packageDependencies": [\
+            ["@adobe/css-tools", "npm:4.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@ampproject/remapping", [\
         ["npm:2.1.2", {\
           "packageLocation": "./.yarn/cache/@ampproject-remapping-npm-2.1.2-d1536e36d6-e023f92cdd.zip/node_modules/@ampproject/remapping/",\
@@ -2539,15 +2548,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@testing-library/jest-dom", [\
-        ["npm:5.16.4", {\
-          "packageLocation": "./.yarn/cache/@testing-library-jest-dom-npm-5.16.4-0bdb383307-4240501223.zip/node_modules/@testing-library/jest-dom/",\
+        ["npm:5.16.5", {\
+          "packageLocation": "./.yarn/cache/@testing-library-jest-dom-npm-5.16.5-b6d1f4e02f-94911f901a.zip/node_modules/@testing-library/jest-dom/",\
           "packageDependencies": [\
-            ["@testing-library/jest-dom", "npm:5.16.4"],\
+            ["@testing-library/jest-dom", "npm:5.16.5"],\
+            ["@adobe/css-tools", "npm:4.2.0"],\
             ["@babel/runtime", "npm:7.11.2"],\
             ["@types/testing-library__jest-dom", "npm:5.9.2"],\
             ["aria-query", "npm:5.0.0"],\
             ["chalk", "npm:3.0.0"],\
-            ["css", "npm:3.0.0"],\
             ["css.escape", "npm:1.5.1"],\
             ["dom-accessibility-api", "npm:0.5.14"],\
             ["lodash", "npm:4.17.21"],\
@@ -3853,7 +3862,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["app-nextjs-bootstrap-1", "workspace:packages/app-nextjs-bootstrap-1"],\
             ["@goldstack/template-nextjs", "npm:0.5.13"],\
             ["@goldstack/utils-sh", "npm:0.5.6"],\
-            ["@testing-library/jest-dom", "npm:5.16.4"],\
+            ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:16ea8aa1a6e3d7e3caad7a728129134ccf425225f70e02114f24bbb7b9874cedac04c00dafd9c218b946bfbd84b030abb0b024f90a0bd869ff619a92b51d4834#npm:13.3.0"],\
             ["@types/jest", "npm:29.0.1"],\
             ["@types/node", "npm:18.7.13"],\
@@ -5606,19 +5615,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["public-encrypt", "npm:4.0.3"],\
             ["randombytes", "npm:2.1.0"],\
             ["randomfill", "npm:1.0.4"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["css", [\
-        ["npm:3.0.0", {\
-          "packageLocation": "./.yarn/cache/css-npm-3.0.0-ef426b63b3-4273ac816d.zip/node_modules/css/",\
-          "packageDependencies": [\
-            ["css", "npm:3.0.0"],\
-            ["fs", "npm:0.0.2"],\
-            ["inherits", "npm:2.0.4"],\
-            ["source-map", "npm:0.6.1"],\
-            ["source-map-resolve", "npm:0.6.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7764,15 +7760,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["from2", "npm:2.3.0"],\
             ["inherits", "npm:2.0.4"],\
             ["readable-stream", "npm:2.3.7"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["fs", [\
-        ["npm:0.0.2", {\
-          "packageLocation": "./.yarn/cache/fs-npm-0.0.2-bba8c78dbd-3880da7d41.zip/node_modules/fs/",\
-          "packageDependencies": [\
-            ["fs", "npm:0.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -14317,15 +14304,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["resolve-url", "npm:0.2.1"],\
             ["source-map-url", "npm:0.4.0"],\
             ["urix", "npm:0.1.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["npm:0.6.0", {\
-          "packageLocation": "./.yarn/cache/source-map-resolve-npm-0.6.0-6e67c9e55f-fe503b9e5d.zip/node_modules/source-map-resolve/",\
-          "packageDependencies": [\
-            ["source-map-resolve", "npm:0.6.0"],\
-            ["atob", "npm:2.1.2"],\
-            ["decode-uri-component", "npm:0.2.2"]\
           ],\
           "linkType": "HARD"\
         }]\
