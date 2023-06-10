@@ -3952,7 +3952,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-transform-stub", "npm:2.0.0"],\
             ["next", "virtual:16ea8aa1a6e3d7e3caad7a728129134ccf425225f70e02114f24bbb7b9874cedac04c00dafd9c218b946bfbd84b030abb0b024f90a0bd869ff619a92b51d4834#npm:13.1.1"],\
             ["next-compose-plugins", "npm:2.2.1"],\
-            ["next-transpile-modules", "npm:10.0.0"],\
             ["node-sass", "npm:8.0.0"],\
             ["react", "npm:18.2.0"],\
             ["react-bootstrap", "virtual:16ea8aa1a6e3d7e3caad7a728129134ccf425225f70e02114f24bbb7b9874cedac04c00dafd9c218b946bfbd84b030abb0b024f90a0bd869ff619a92b51d4834#npm:2.2.1"],\
@@ -5772,17 +5771,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["end-of-stream", "npm:1.4.4"],\
             ["once", "npm:1.4.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["enhanced-resolve", [\
-        ["npm:5.12.0", {\
-          "packageLocation": "./.yarn/cache/enhanced-resolve-npm-5.12.0-c291ce4ee3-bf3f787fac.zip/node_modules/enhanced-resolve/",\
-          "packageDependencies": [\
-            ["enhanced-resolve", "npm:5.12.0"],\
-            ["graceful-fs", "npm:4.2.4"],\
-            ["tapable", "npm:2.2.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -10165,16 +10153,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["next-transpile-modules", [\
-        ["npm:10.0.0", {\
-          "packageLocation": "./.yarn/cache/next-transpile-modules-npm-10.0.0-35632e5048-3300fc7081.zip/node_modules/next-transpile-modules/",\
-          "packageDependencies": [\
-            ["next-transpile-modules", "npm:10.0.0"],\
-            ["enhanced-resolve", "npm:5.12.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["node-css-require", [\
         ["npm:0.4.9", {\
           "packageLocation": "./.yarn/cache/node-css-require-npm-0.4.9-90128bcf86-806282b1a9.zip/node_modules/node-css-require/",\
@@ -12829,15 +12807,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/symbol-tree-npm-3.2.4-fe70cdb75b-6e8fc7e148.zip/node_modules/symbol-tree/",\
           "packageDependencies": [\
             ["symbol-tree", "npm:3.2.4"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["tapable", [\
-        ["npm:2.2.1", {\
-          "packageLocation": "./.yarn/cache/tapable-npm-2.2.1-8cf5ff3039-3b7a1b4d86.zip/node_modules/tapable/",\
-          "packageDependencies": [\
-            ["tapable", "npm:2.2.1"]\
           ],\
           "linkType": "HARD"\
         }]\
