@@ -40,9 +40,9 @@ For more information, see [GitHub documentation - Fork a repo](https://docs.gith
 
 A few dependencies need to be available in your development system. Please verify they are present or install them.
 
-- Node v12+
+- Node v18+
 - Yarn v1.22.5+
-- Docker v19+
+- Docker v24+
 
 Open a terminal and run the following commands:
 

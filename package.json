@@ -9,19 +9,19 @@
   ],
   "scripts": {
     "build": "yarn clean && yarn compile",
-    "clean": "yarn workspaces foreach run clean",
+    "clean": "yarn workspaces foreach -W run clean",
     "compile": "yarn fix-project-references-all && tsc --build",
-    "coverage": "yarn workspaces foreach --topological-devs run coverage",
-    "deploy": "yarn workspaces foreach run deploy \"$@\"",
+    "coverage": "yarn workspaces foreach --topological-devs --worktree run coverage",
+    "deploy": "yarn workspaces foreach -W run deploy \"$@\"",
     "fix-project-references": "utils-typescript-references --skipRoot",
     "fix-project-references-all": "utils-typescript-references",
     "format": "prettier --loglevel log --config .prettierrc.json --write .",
     "format-check": "prettier --loglevel log --config .prettierrc.json --check .",
-    "infra": "yarn workspaces foreach run infra \"$@\"",
+    "infra": "yarn workspaces foreach -W run infra \"$@\"",
     "lint": "eslint . --ext .js,.ts,.tsx,.json,.yml,.yaml",
     "lint-fix": "eslint . --ext .js,.ts,.tsx,.json,.yml,.yaml --fix",
     "package:doctor": "yarn dlx @yarnpkg/doctor .",
-    "test-ci": "yarn workspaces foreach -v run test-ci",
+    "test-ci": "yarn workspaces foreach -Wv run test-ci",
     "test-watch": "nodemonx --watch . --exec 'yarn test-ci'"
   },
   "resolutions": {
@@ -35,7 +35,8 @@
     "prismjs": "1.27.0",
     "scss-tokenizer": "0.4.3",
     "terser": "4.8.1",
-    "trim": "0.0.3"
+    "trim": "0.0.3",
+    "underscore@npm:1.7.0": "1.12.1"
   },
   "devDependencies": {
     "@goldstack/nodemonx": "0.4.10",
@@ -56,5 +57,5 @@
     "react": "18.2.0",
     "typescript": "^4.8.4"
   },
-  "packageManager": "yarn@3.5.0"
+  "packageManager": "yarn@4.0.2"
 }
