@@ -5,12 +5,12 @@
       "edge_function_name": {
         "sensitive": false,
         "type": "string",
-        "value": "nextjsbootstrap-1727420907399-tests-dev-goldstack-party-edge"
+        "value": "nextjsbootstrap-1727422921188-tests-dev-goldstack-party-edge"
       },
       "website_cdn_root_id": {
         "sensitive": false,
         "type": "string",
-        "value": "E1HYNSH53704CD"
+        "value": "E2NSVUT0HD6UOM"
       }
     }
   }
