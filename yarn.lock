@@ -2962,15 +2962,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-typescript-references@npm:0.3.12":
-  version: 0.3.12
-  resolution: "@goldstack/utils-typescript-references@npm:0.3.12"
+"@goldstack/utils-typescript-references@npm:0.3.13":
+  version: 0.3.13
+  resolution: "@goldstack/utils-typescript-references@npm:0.3.13"
   dependencies:
+    "@goldstack/utils-log": "npm:0.3.18"
     source-map-support: "npm:^0.5.21"
     yargs: "npm:^17.5.1"
   bin:
     utils-typescript-references: ./bin/utils-typescript-references
-  checksum: 10/e81a7fc2f2f7492fc635966c03081dc30b6f74cea3d1e87fdb75a911851b757ce6fea1153855cd8a5a0b6745c9e52d721543ae38295725fcdca931bf62fbcf8c
+  checksum: 10/74dfa118db445ba734d7f53819688a5b4b190983bf8115f1f53f7c55c759a77ab5153e3b7e32f30c887aed8010faa42298087f29b4d0dd63163ed6f1ed56c249
   languageName: node
   linkType: hard
 
@@ -12423,7 +12424,7 @@ __metadata:
   resolution: "project-nextjsbootstrap1@workspace:."
   dependencies:
     "@goldstack/nodemonx": "npm:0.4.21"
-    "@goldstack/utils-typescript-references": "npm:0.3.12"
+    "@goldstack/utils-typescript-references": "npm:0.3.13"
     "@types/jest": "npm:^29.5.14"
     "@types/node": "npm:^22.10.2"
     "@typescript-eslint/eslint-plugin": "npm:^5.42.1"
