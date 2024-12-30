@@ -11,7 +11,7 @@
       "awsRegion": "us-west-2",
       "configuration": {
         "hostedZoneDomain": "dev.goldstack.party",
-        "websiteDomain": "nextjsbootstrap-1735523326299.tests.dev.goldstack.party",
+        "websiteDomain": "nextjsbootstrap-1735524443760.tests.dev.goldstack.party",
         "defaultCacheDuration": 10
       }
     }
