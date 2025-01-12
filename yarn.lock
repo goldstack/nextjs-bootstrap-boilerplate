@@ -2708,17 +2708,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/nodemonx@npm:0.4.22":
-  version: 0.4.22
-  resolution: "@goldstack/nodemonx@npm:0.4.22"
+"@goldstack/nodemonx@npm:0.4.23":
+  version: 0.4.23
+  resolution: "@goldstack/nodemonx@npm:0.4.23"
   dependencies:
     "@goldstack/utils-log": "npm:0.3.18"
     "@goldstack/utils-sh": "npm:0.5.21"
-    minimatch: "npm:^5.1.0"
+    minimatch: "npm:^10.0.1"
     node-watch: "npm:^0.6.4"
   bin:
     nodemonx: ./bin/utils-nodemonx
-  checksum: 10/d93abf0f4b363826190646059b060c5b43350f62843117b534827e0fa39dd89179edf7984e44b292085250b7d42d14015b124fcfb27dba9da5e64aeedb9bfdc3
+  checksum: 10/77df4afd0ea0d5c843c3bd7e2a920adeb5284a29acae88c666ff4717f0e2fae7acac591bd10c7740de29678450807d690867611a84bb0f7be95606e9e0d993b7
   languageName: node
   linkType: hard
 
@@ -12589,6 +12589,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"minimatch@npm:^10.0.1":
+  version: 10.0.1
+  resolution: "minimatch@npm:10.0.1"
+  dependencies:
+    brace-expansion: "npm:^2.0.1"
+  checksum: 10/082e7ccbc090d5f8c4e4e029255d5a1d1e3af37bda837da2b8b0085b1503a1210c91ac90d9ebfe741d8a5f286ece820a1abb4f61dc1f82ce602a055d461d93f3
+  languageName: node
+  linkType: hard
+
 "minimatch@npm:^3.0.4, minimatch@npm:^3.0.5, minimatch@npm:^3.1.2":
   version: 3.1.2
   resolution: "minimatch@npm:3.1.2"
@@ -13990,7 +13999,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "project-nextjsbootstrap1@workspace:."
   dependencies:
-    "@goldstack/nodemonx": "npm:0.4.22"
+    "@goldstack/nodemonx": "npm:0.4.23"
     "@goldstack/utils-typescript-references": "npm:0.3.13"
     "@types/jest": "npm:^29.5.14"
     "@types/node": "npm:^22.10.2"
