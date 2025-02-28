@@ -8,6 +8,7 @@
     "build": "yarn clean && yarn compile",
     "build:next": "NEXT_TELEMETRY_DISABLED=1 next build",
     "clean": "rimraf ./dist ./webDist",
+    "clean-terraform": "rimraf ./infra/aws/.terraform",
     "compile": "tsc --build",
     "compile-watch": "tsc --isolatedModules false -p tsconfig.compile.json --watch",
     "compile:sass": "node-sass src/styles/app.scss src/styles/app.css --source-map src/styles/app.css.map",
@@ -36,7 +37,7 @@
     "swr": "^0.4.0"
   },
   "devDependencies": {
-    "@goldstack/template-nextjs": "0.5.56",
+    "@goldstack/template-nextjs": "0.5.57",
     "@goldstack/utils-sh": "0.5.21",
     "@swc/core": "^1.10.1",
     "@swc/jest": "^0.2.37",
