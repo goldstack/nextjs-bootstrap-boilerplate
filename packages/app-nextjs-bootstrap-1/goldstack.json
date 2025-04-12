@@ -11,10 +11,10 @@
       "awsRegion": "us-west-2",
       "configuration": {
         "hostedZoneDomain": "dev.goldstack.party",
-        "websiteDomain": "nextjsbootstrap-1744078830333.tests.dev.goldstack.party",
+        "websiteDomain": "nextjsbootstrap-1744423827829.tests.dev.goldstack.party",
         "defaultCacheDuration": 10
       },
-      "tfStateKey": "app-nextjs-bootstrap-1-prod-33862b3cec0052505711.tfstate"
+      "tfStateKey": "app-nextjs-bootstrap-1-prod-7a598b9f2c24417bc8e0.tfstate"
     }
   ]
 }
