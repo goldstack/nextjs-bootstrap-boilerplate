@@ -14,6 +14,7 @@
     "outDir": "dist",
     "baseUrl": ".",
     "jsx": "preserve",
+    "target": "esnext",
     "module": "esnext",
     "incremental": true,
     "noEmit": false,
