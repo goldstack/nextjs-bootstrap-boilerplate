@@ -2882,9 +2882,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-nextjs@npm:0.5.61":
-  version: 0.5.61
-  resolution: "@goldstack/template-nextjs@npm:0.5.61"
+"@goldstack/template-nextjs@npm:0.5.62":
+  version: 0.5.62
+  resolution: "@goldstack/template-nextjs@npm:0.5.62"
   dependencies:
     "@goldstack/infra": "npm:0.4.24"
     "@goldstack/infra-aws": "npm:0.4.36"
@@ -2906,7 +2906,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-nextjs: ./bin/template
-  checksum: 10/3bfb2ab38acee982e61f8ffe6ebb6e2fb4333484678b5713e19717b5f2377ae65f1263e23eae7c466f69e9da52dd39c5de2ae99cb04cb809e3eac49040d203e2
+  checksum: 10/19b321c0d7e8a1a9ce7b8eaf1387ae77ab4d7ab54abe0d8f637c5cf1fccf8f79e2e4d758a452396054cb28d55d8c7a62e892a19d9030acc192d0a8b84502998a
   languageName: node
   linkType: hard
 
@@ -6374,7 +6374,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app-nextjs-bootstrap-1@workspace:packages/app-nextjs-bootstrap-1"
   dependencies:
-    "@goldstack/template-nextjs": "npm:0.5.61"
+    "@goldstack/template-nextjs": "npm:0.5.62"
     "@goldstack/utils-sh": "npm:0.5.23"
     "@swc/core": "npm:^1.12.11"
     "@swc/jest": "npm:^0.2.39"
