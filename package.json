@@ -26,6 +26,7 @@
     "test-watch": "nodemonx --watch . --exec 'yarn test'"
   },
   "resolutions": {
+    "form-data": "^4.0.4",
     "generic-names": "4.0.0"
   },
   "devDependencies": {
