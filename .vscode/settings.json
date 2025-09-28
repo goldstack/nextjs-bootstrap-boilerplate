@@ -14,14 +14,7 @@
     "**/.yarn": true,
     "**/.pnp.*": true
   },
-  "cSpell.words": [
-    "GOLDSTACK",
-    "hetzner",
-    "Jwks",
-    "pino",
-    "runcmd",
-    "testcontainers"
-  ],
+  "cSpell.words": ["GOLDSTACK", "hetzner", "Jwks", "pino", "runcmd", "testcontainers"],
   "github-actions.workflows.pinned.workflows": [
     ".github/workflows/branch.yml",
     ".github/workflows/template_deploy_dev.yml",
@@ -29,6 +22,9 @@
   ],
   "[javascript][typescript][javascriptreact][typescriptreact][json][jsonc][css][graphql]": {
     "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
   },
   "editor.formatOnPaste": true,
   "emmet.showExpandedAbbreviation": "never",
