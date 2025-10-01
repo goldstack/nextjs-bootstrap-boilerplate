@@ -43,7 +43,7 @@ const nextConfig = {
 
 const plugins = [];
 
-module.exports = (_phase, {}) => {
+module.exports = (_phase, _) => {
   return plugins.reduce(
     (acc, plugin) => {
       if (Array.isArray(plugin)) {
@@ -51,6 +51,6 @@ module.exports = (_phase, {}) => {
       }
       return plugin(acc);
     },
-    { ...nextConfig }
+    { ...nextConfig },
   );
 };
