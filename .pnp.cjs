@@ -3597,13 +3597,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-nextjs", [\
-      ["npm:0.5.74", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-nextjs-npm-0.5.74-3d053cda63-1606ebce5b.zip/node_modules/@goldstack/template-nextjs/",\
+      ["npm:0.5.76", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-nextjs-npm-0.5.76-0e88184917-2c44494c14.zip/node_modules/@goldstack/template-nextjs/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.29"],\
           ["@goldstack/infra-aws", "npm:0.4.45"],\
-          ["@goldstack/template-nextjs", "npm:0.5.74"],\
-          ["@goldstack/template-static-website-aws", "npm:0.5.63"],\
+          ["@goldstack/template-nextjs", "npm:0.5.76"],\
+          ["@goldstack/template-static-website-aws", "npm:0.5.64"],\
           ["@goldstack/utils-aws-cli", "npm:0.4.46"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.57"],\
           ["@goldstack/utils-cli", "npm:0.3.23"],\
@@ -3623,12 +3623,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-static-website-aws", [\
-      ["npm:0.5.63", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-static-website-aws-npm-0.5.63-be6221fed9-4751c0aafe.zip/node_modules/@goldstack/template-static-website-aws/",\
+      ["npm:0.5.64", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-static-website-aws-npm-0.5.64-e0a29b21f4-3ad7039fee.zip/node_modules/@goldstack/template-static-website-aws/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.29"],\
           ["@goldstack/infra-aws", "npm:0.4.45"],\
-          ["@goldstack/template-static-website-aws", "npm:0.5.63"],\
+          ["@goldstack/template-static-website-aws", "npm:0.5.64"],\
           ["@goldstack/utils-cli", "npm:0.3.23"],\
           ["@goldstack/utils-config", "npm:0.4.29"],\
           ["@goldstack/utils-docs-cli", "npm:0.3.11"],\
@@ -7489,7 +7489,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:packages/app-nextjs-bootstrap-1", {\
         "packageLocation": "./packages/app-nextjs-bootstrap-1/",\
         "packageDependencies": [\
-          ["@goldstack/template-nextjs", "npm:0.5.74"],\
+          ["@goldstack/template-nextjs", "npm:0.5.76"],\
           ["@goldstack/utils-sh", "npm:0.5.28"],\
           ["@swc/core", "virtual:16ea8aa1a6e3d7e3caad7a728129134ccf425225f70e02114f24bbb7b9874cedac04c00dafd9c218b946bfbd84b030abb0b024f90a0bd869ff619a92b51d4834#npm:1.12.11"],\
           ["@swc/jest", "virtual:16ea8aa1a6e3d7e3caad7a728129134ccf425225f70e02114f24bbb7b9874cedac04c00dafd9c218b946bfbd84b030abb0b024f90a0bd869ff619a92b51d4834#npm:0.2.39"],\

@@ -2970,13 +2970,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-nextjs@npm:0.5.74":
-  version: 0.5.74
-  resolution: "@goldstack/template-nextjs@npm:0.5.74"
+"@goldstack/template-nextjs@npm:0.5.76":
+  version: 0.5.76
+  resolution: "@goldstack/template-nextjs@npm:0.5.76"
   dependencies:
     "@goldstack/infra": "npm:0.4.29"
     "@goldstack/infra-aws": "npm:0.4.45"
-    "@goldstack/template-static-website-aws": "npm:0.5.63"
+    "@goldstack/template-static-website-aws": "npm:0.5.64"
     "@goldstack/utils-aws-cli": "npm:0.4.46"
     "@goldstack/utils-aws-lambda": "npm:0.3.57"
     "@goldstack/utils-cli": "npm:0.3.23"
@@ -2994,13 +2994,13 @@ __metadata:
   bin:
     template: ./bin/template
     template-nextjs: ./bin/template
-  checksum: 10/1606ebce5be3503d09b9426be765d58e73499c3b2617a62df2ec91c33e6ea02f612d93034c6752c7473a7df4d21c797e93662ece5b077684bf40a4c200b57761
+  checksum: 10/2c44494c143a915f08becb024ed8669f68a2a2bace424cb00e0f308042ae834c9b2c826594367044cf5a0d0267e156cd7f5c96e4281684a18f34a6f51e31076d
   languageName: node
   linkType: hard
 
-"@goldstack/template-static-website-aws@npm:0.5.63":
-  version: 0.5.63
-  resolution: "@goldstack/template-static-website-aws@npm:0.5.63"
+"@goldstack/template-static-website-aws@npm:0.5.64":
+  version: 0.5.64
+  resolution: "@goldstack/template-static-website-aws@npm:0.5.64"
   dependencies:
     "@goldstack/infra": "npm:0.4.29"
     "@goldstack/infra-aws": "npm:0.4.45"
@@ -3020,7 +3020,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-static-website-aws: ./bin/template
-  checksum: 10/4751c0aafe3e0d348eba68113e557d3e54e8d233c10f4db5f8dbdca446c155890cb7d8967c054b86a5d019a64eb5750c3e90d8eae3332fce2406d83ba52445ff
+  checksum: 10/3ad7039fee2c8c7904ef78261d68f81c0795678f6d01faea19e7be661954daaf0a434a8132e44c965cf45a4557e8488f6670e45575fc612e342c6001abfbf492
   languageName: node
   linkType: hard
 
@@ -6625,7 +6625,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app-nextjs-bootstrap-1@workspace:packages/app-nextjs-bootstrap-1"
   dependencies:
-    "@goldstack/template-nextjs": "npm:0.5.74"
+    "@goldstack/template-nextjs": "npm:0.5.76"
     "@goldstack/utils-sh": "npm:0.5.28"
     "@swc/core": "npm:^1.12.11"
     "@swc/jest": "npm:^0.2.39"
