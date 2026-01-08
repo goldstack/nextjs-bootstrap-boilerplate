@@ -20,12 +20,12 @@
   },
   "dynamicRoutes": [
     {
-      "page": "/404",
-      "regex": "^\\/404$"
-    },
-    {
       "page": "/index",
       "regex": "^\\/index$"
+    },
+    {
+      "page": "/404",
+      "regex": "^\\/404$"
     }
   ],
   "staticRoutes": [
