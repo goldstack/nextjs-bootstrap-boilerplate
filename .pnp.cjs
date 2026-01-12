@@ -7583,7 +7583,6 @@ const RAW_RUNTIME_STATE =
           ["@types/testing-library__react", "npm:10.2.0"],\
           ["app-nextjs-bootstrap-1", "workspace:packages/app-nextjs-bootstrap-1"],\
           ["concurrently", "npm:7.3.0"],\
-          ["file-loader", "virtual:16ea8aa1a6e3d7e3caad7a728129134ccf425225f70e02114f24bbb7b9874cedac04c00dafd9c218b946bfbd84b030abb0b024f90a0bd869ff619a92b51d4834#npm:6.2.0"],\
           ["jest", "virtual:16ea8aa1a6e3d7e3caad7a728129134ccf425225f70e02114f24bbb7b9874cedac04c00dafd9c218b946bfbd84b030abb0b024f90a0bd869ff619a92b51d4834#npm:30.2.0"],\
           ["jest-environment-jsdom", "virtual:16ea8aa1a6e3d7e3caad7a728129134ccf425225f70e02114f24bbb7b9874cedac04c00dafd9c218b946bfbd84b030abb0b024f90a0bd869ff619a92b51d4834#npm:30.2.0"],\
           ["jest-transform-stub", "npm:2.0.0"],\
@@ -7594,7 +7593,7 @@ const RAW_RUNTIME_STATE =
           ["react-dom", "virtual:16ea8aa1a6e3d7e3caad7a728129134ccf425225f70e02114f24bbb7b9874cedac04c00dafd9c218b946bfbd84b030abb0b024f90a0bd869ff619a92b51d4834#npm:19.2.3"],\
           ["react-is", "npm:19.2.1"],\
           ["reload", "npm:3.2.0"],\
-          ["rimraf", "npm:3.0.2"],\
+          ["rimraf", "npm:6.1.2"],\
           ["sass", "npm:1.89.2"],\
           ["svg-url-loader", "virtual:16ea8aa1a6e3d7e3caad7a728129134ccf425225f70e02114f24bbb7b9874cedac04c00dafd9c218b946bfbd84b030abb0b024f90a0bd869ff619a92b51d4834#npm:8.0.0"],\
           ["swr", "virtual:16ea8aa1a6e3d7e3caad7a728129134ccf425225f70e02114f24bbb7b9874cedac04c00dafd9c218b946bfbd84b030abb0b024f90a0bd869ff619a92b51d4834#npm:0.4.0"],\
@@ -9653,11 +9652,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:16ea8aa1a6e3d7e3caad7a728129134ccf425225f70e02114f24bbb7b9874cedac04c00dafd9c218b946bfbd84b030abb0b024f90a0bd869ff619a92b51d4834#npm:6.2.0", {\
-        "packageLocation": "./.yarn/__virtual__/file-loader-virtual-f0a1c29c14/0/cache/file-loader-npm-6.2.0-4b02fd87d5-3a854be3a7.zip/node_modules/file-loader/",\
+      ["virtual:aea8ed68cf53a047b35fedaba373c54c3a64045f70a4de4f1c42dccb879cc457e39f0754a6e118e0cbb6b6545fa421f0a5fcf47a22d7efc430273c812a10055f#npm:6.2.0", {\
+        "packageLocation": "./.yarn/__virtual__/file-loader-virtual-5240e42b44/0/cache/file-loader-npm-6.2.0-4b02fd87d5-3a854be3a7.zip/node_modules/file-loader/",\
         "packageDependencies": [\
           ["@types/webpack", null],\
-          ["file-loader", "virtual:16ea8aa1a6e3d7e3caad7a728129134ccf425225f70e02114f24bbb7b9874cedac04c00dafd9c218b946bfbd84b030abb0b024f90a0bd869ff619a92b51d4834#npm:6.2.0"],\
+          ["file-loader", "virtual:aea8ed68cf53a047b35fedaba373c54c3a64045f70a4de4f1c42dccb879cc457e39f0754a6e118e0cbb6b6545fa421f0a5fcf47a22d7efc430273c812a10055f#npm:6.2.0"],\
           ["loader-utils", "npm:2.0.4"],\
           ["schema-utils", "npm:3.1.1"],\
           ["webpack", null]\
@@ -9961,6 +9960,16 @@ const RAW_RUNTIME_STATE =
           ["minimatch", "npm:10.1.1"],\
           ["minipass", "npm:7.1.2"],\
           ["package-json-from-dist", "npm:1.0.1"],\
+          ["path-scurry", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:13.0.0", {\
+        "packageLocation": "./.yarn/cache/glob-npm-13.0.0-8e50143ca8-de390721d2.zip/node_modules/glob/",\
+        "packageDependencies": [\
+          ["glob", "npm:13.0.0"],\
+          ["minimatch", "npm:10.1.1"],\
+          ["minipass", "npm:7.1.2"],\
           ["path-scurry", "npm:2.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -13876,6 +13885,15 @@ const RAW_RUNTIME_STATE =
           ["rimraf", "npm:3.0.2"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:6.1.2", {\
+        "packageLocation": "./.yarn/cache/rimraf-npm-6.1.2-ff31ae67d7-add8e566fe.zip/node_modules/rimraf/",\
+        "packageDependencies": [\
+          ["glob", "npm:13.0.0"],\
+          ["package-json-from-dist", "npm:1.0.1"],\
+          ["rimraf", "npm:6.1.2"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["rrweb-cssom", [\
@@ -14677,7 +14695,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/svg-url-loader-virtual-aea8ed68cf/0/cache/svg-url-loader-npm-8.0.0-4c28fd7afe-c4fa2da329.zip/node_modules/svg-url-loader/",\
         "packageDependencies": [\
           ["@types/webpack", null],\
-          ["file-loader", "virtual:16ea8aa1a6e3d7e3caad7a728129134ccf425225f70e02114f24bbb7b9874cedac04c00dafd9c218b946bfbd84b030abb0b024f90a0bd869ff619a92b51d4834#npm:6.2.0"],\
+          ["file-loader", "virtual:aea8ed68cf53a047b35fedaba373c54c3a64045f70a4de4f1c42dccb879cc457e39f0754a6e118e0cbb6b6545fa421f0a5fcf47a22d7efc430273c812a10055f#npm:6.2.0"],\
           ["svg-url-loader", "virtual:16ea8aa1a6e3d7e3caad7a728129134ccf425225f70e02114f24bbb7b9874cedac04c00dafd9c218b946bfbd84b030abb0b024f90a0bd869ff619a92b51d4834#npm:8.0.0"],\
           ["webpack", null]\
         ],\
