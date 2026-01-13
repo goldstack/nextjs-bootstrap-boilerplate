@@ -3541,13 +3541,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-nextjs", [\
-      ["npm:0.5.85", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-nextjs-npm-0.5.85-16ba8fe7e7-d1eb9094f1.zip/node_modules/@goldstack/template-nextjs/",\
+      ["npm:0.5.86", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-nextjs-npm-0.5.86-fdaed2f49b-9cef9fad57.zip/node_modules/@goldstack/template-nextjs/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.35"],\
           ["@goldstack/infra-aws", "npm:0.4.53"],\
-          ["@goldstack/template-nextjs", "npm:0.5.85"],\
-          ["@goldstack/template-static-website-aws", "npm:0.5.73"],\
+          ["@goldstack/template-nextjs", "npm:0.5.86"],\
+          ["@goldstack/template-static-website-aws", "npm:0.5.74"],\
           ["@goldstack/utils-aws-cli", "npm:0.4.54"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.65"],\
           ["@goldstack/utils-cli", "npm:0.3.27"],\
@@ -3556,7 +3556,7 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-package", "npm:0.4.37"],\
           ["@goldstack/utils-package-config", "npm:0.4.37"],\
           ["@goldstack/utils-sh", "npm:0.5.34"],\
-          ["@goldstack/utils-template", "npm:0.4.35"],\
+          ["@goldstack/utils-template", "npm:0.4.36"],\
           ["@goldstack/utils-terraform", "npm:0.4.66"],\
           ["esbuild", "npm:0.25.6"],\
           ["glob", "npm:11.1.0"],\
@@ -3567,12 +3567,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-static-website-aws", [\
-      ["npm:0.5.73", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-static-website-aws-npm-0.5.73-f7e3e356b5-5209cf9f41.zip/node_modules/@goldstack/template-static-website-aws/",\
+      ["npm:0.5.74", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-static-website-aws-npm-0.5.74-f4c9eafa66-e5027683ad.zip/node_modules/@goldstack/template-static-website-aws/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.35"],\
           ["@goldstack/infra-aws", "npm:0.4.53"],\
-          ["@goldstack/template-static-website-aws", "npm:0.5.73"],\
+          ["@goldstack/template-static-website-aws", "npm:0.5.74"],\
           ["@goldstack/utils-cli", "npm:0.3.27"],\
           ["@goldstack/utils-config", "npm:0.4.35"],\
           ["@goldstack/utils-docs-cli", "npm:0.3.11"],\
@@ -3581,7 +3581,7 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-package-config", "npm:0.4.37"],\
           ["@goldstack/utils-s3-deployment", "npm:0.5.57"],\
           ["@goldstack/utils-sh", "npm:0.5.34"],\
-          ["@goldstack/utils-template", "npm:0.4.35"],\
+          ["@goldstack/utils-template", "npm:0.4.36"],\
           ["@goldstack/utils-terraform", "npm:0.4.66"],\
           ["@goldstack/utils-terraform-aws", "npm:0.4.69"],\
           ["source-map-support", "npm:0.5.21"],\
@@ -3789,12 +3789,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-template", [\
-      ["npm:0.4.35", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-template-npm-0.4.35-2b31cd8518-239be29880.zip/node_modules/@goldstack/utils-template/",\
+      ["npm:0.4.36", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-template-npm-0.4.36-d001fc57b3-a8e84d5110.zip/node_modules/@goldstack/utils-template/",\
         "packageDependencies": [\
           ["@goldstack/utils-config", "npm:0.4.35"],\
           ["@goldstack/utils-sh", "npm:0.5.34"],\
-          ["@goldstack/utils-template", "npm:0.4.35"]\
+          ["@goldstack/utils-template", "npm:0.4.36"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7568,7 +7568,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:packages/app-nextjs-bootstrap-1", {\
         "packageLocation": "./packages/app-nextjs-bootstrap-1/",\
         "packageDependencies": [\
-          ["@goldstack/template-nextjs", "npm:0.5.85"],\
+          ["@goldstack/template-nextjs", "npm:0.5.86"],\
           ["@goldstack/utils-sh", "npm:0.5.34"],\
           ["@swc/core", "virtual:16ea8aa1a6e3d7e3caad7a728129134ccf425225f70e02114f24bbb7b9874cedac04c00dafd9c218b946bfbd84b030abb0b024f90a0bd869ff619a92b51d4834#npm:1.15.8"],\
           ["@swc/jest", "virtual:16ea8aa1a6e3d7e3caad7a728129134ccf425225f70e02114f24bbb7b9874cedac04c00dafd9c218b946bfbd84b030abb0b024f90a0bd869ff619a92b51d4834#npm:0.2.39"],\
