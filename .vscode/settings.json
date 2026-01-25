@@ -37,5 +37,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.biome": "explicit",
     "source.organizeImports.biome": "explicit"
-  }
+  },
+  "open-in-external-terminal.additionalArgs": ["-w goldstack"]
 }

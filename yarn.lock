@@ -2820,15 +2820,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-nextjs@npm:0.5.91":
-  version: 0.5.91
-  resolution: "@goldstack/template-nextjs@npm:0.5.91"
+"@goldstack/template-nextjs@npm:0.5.92":
+  version: 0.5.92
+  resolution: "@goldstack/template-nextjs@npm:0.5.92"
   dependencies:
     "@goldstack/infra": "npm:0.4.39"
     "@goldstack/infra-aws": "npm:0.4.57"
     "@goldstack/template-static-website-aws": "npm:0.5.79"
     "@goldstack/utils-aws-cli": "npm:0.4.58"
-    "@goldstack/utils-aws-lambda": "npm:0.3.69"
+    "@goldstack/utils-aws-lambda": "npm:0.3.70"
     "@goldstack/utils-cli": "npm:0.3.31"
     "@goldstack/utils-config": "npm:0.4.39"
     "@goldstack/utils-log": "npm:0.3.33"
@@ -2844,7 +2844,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-nextjs: ./bin/template
-  checksum: 10/e3003ea43e14a9fc9cb079d2b21059e4b470885e02dd8396818f9f908a296fe5b55b276817cb51735db1d089ffcd01c08da81cb47c74a45f26a02ba97149858f
+  checksum: 10/d2673834fa4d87fc7e85708c06f8445f6a1ef1e248005d83b25b8260ae7a1102c870b213ce052524c3341bb2e75b0422eb73c25dcc6d994fcc41be2940624308
   languageName: node
   linkType: hard
 
@@ -2886,9 +2886,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-aws-lambda@npm:0.3.69":
-  version: 0.3.69
-  resolution: "@goldstack/utils-aws-lambda@npm:0.3.69"
+"@goldstack/utils-aws-lambda@npm:0.3.70":
+  version: 0.3.70
+  resolution: "@goldstack/utils-aws-lambda@npm:0.3.70"
   dependencies:
     "@aws-sdk/types": "npm:^3.957.0"
     "@goldstack/infra-aws": "npm:0.4.57"
@@ -2898,8 +2898,8 @@ __metadata:
     "@yarnpkg/esbuild-plugin-pnp": "npm:^3.0.0-rc.15"
     archiver: "npm:^5.3.1"
     esbuild: "npm:^0.25.6"
-    esbuild-ssr-css-modules-plugin: "npm:0.1.31"
-  checksum: 10/c1aefe79351839c2066084d63c7ccc9a4470f11ac7ec6f468b1a968ab3e52c37e2108cf142579e552d731db66a98bb7355a38c66d557125a211af85824654080
+    esbuild-ssr-css-modules-plugin: "npm:0.1.32"
+  checksum: 10/ec6d6e147cb0f57e56591d82d88a800d50e97c656246291cb2baf63c5f17b655238b4f7f94b8ec9e01c1c3a47e132b06cf4c8236aac2b99086dda506cf9ac84e
   languageName: node
   linkType: hard
 
@@ -6436,7 +6436,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app-nextjs-bootstrap-1@workspace:packages/app-nextjs-bootstrap-1"
   dependencies:
-    "@goldstack/template-nextjs": "npm:0.5.91"
+    "@goldstack/template-nextjs": "npm:0.5.92"
     "@goldstack/utils-sh": "npm:0.5.38"
     "@swc/core": "npm:^1.15.8"
     "@swc/jest": "npm:^0.2.39"
@@ -7751,16 +7751,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild-ssr-css-modules-plugin@npm:0.1.31":
-  version: 0.1.31
-  resolution: "esbuild-ssr-css-modules-plugin@npm:0.1.31"
+"esbuild-ssr-css-modules-plugin@npm:0.1.32":
+  version: 0.1.32
+  resolution: "esbuild-ssr-css-modules-plugin@npm:0.1.32"
   dependencies:
-    node-css-require: "npm:0.4.29"
+    node-css-require: "npm:0.4.30"
     postcss-modules-sync: "npm:^1.0.0"
     sha256: "npm:^0.2.0"
   peerDependencies:
     esbuild: ^0.25.6
-  checksum: 10/2cba553d3dc4985926ea863656ae79498cf42660c1945937b442d4d2fe1edc4c56dc2fa152022a2182a2508d6a2f11cf49ddcf3b3d8647013c52b1574fa2287e
+  checksum: 10/f97434059f269145f8bc2b36bf7e5886a30be9b08385e37b1739c4dea47739e66c9db068d8c02dfc4fcae9f2d0906c589033902cf54cf0d20f8474d8847bfec8
   languageName: node
   linkType: hard
 
@@ -10178,15 +10178,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-css-require@npm:0.4.29":
-  version: 0.4.29
-  resolution: "node-css-require@npm:0.4.29"
+"node-css-require@npm:0.4.30":
+  version: 0.4.30
+  resolution: "node-css-require@npm:0.4.30"
   dependencies:
     pirates: "npm:^4.0.5"
     postcss: "npm:^8.5.6"
     postcss-modules: "npm:^5.0.0"
     postcss-modules-sync: "npm:^1.0.0"
-  checksum: 10/62eb237ba8a46fe8affebfd002e9608ae7187030d55589f0be6deb518ef81cc72f980417a6fc2300c5f77e4d6c3d1849d342737c5ba4e07b79f72c169f4b208e
+  checksum: 10/e455f98ddfaee0eaea26fe65eb73d8c6c134c1d029d357d87aa24863a5c16ac8cf05589880e826437cfc45bfa77bb86a3e0cc7998a317eac8b4fe666d1b4f79f
   languageName: node
   linkType: hard
 

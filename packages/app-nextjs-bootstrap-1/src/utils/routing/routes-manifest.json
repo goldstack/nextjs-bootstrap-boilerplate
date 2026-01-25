@@ -21,19 +21,21 @@
   "dynamicRoutes": [
     {
       "page": "/index",
-      "regex": "^\\/index$"
+      "regex": "^/index$"
     },
     {
       "page": "/404",
-      "regex": "^\\/404$"
+      "regex": "^/404$"
     }
   ],
   "staticRoutes": [
     {
-      "page": "/",
-      "regex": "^/(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/(?:/)?$"
+      "page": "/index",
+      "regex": "^/index$"
+    },
+    {
+      "page": "/404",
+      "regex": "^/404$"
     }
   ],
   "dataRoutes": [],
