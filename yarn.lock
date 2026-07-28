@@ -1883,29 +1883,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/nodemonx@npm:0.4.42":
-  version: 0.4.42
-  resolution: "@goldstack/nodemonx@npm:0.4.42"
+"@goldstack/nodemonx@npm:0.4.43":
+  version: 0.4.43
+  resolution: "@goldstack/nodemonx@npm:0.4.43"
   dependencies:
-    "@goldstack/utils-log": "npm:0.3.35"
-    "@goldstack/utils-sh": "npm:0.5.40"
+    "@goldstack/utils-log": "npm:0.3.36"
+    "@goldstack/utils-sh": "npm:0.5.41"
     minimatch: "npm:^10.0.1"
     node-watch: "npm:^0.6.4"
   bin:
     nodemonx: ./bin/utils-nodemonx
-  checksum: 10/8876dfca23c10b8f6062288841a1dc9b10ae0c93bac90ec580ac2bd0a43602c6ca5adcdd25a99040b1c279832536187ae2fee75c9128e6cf7398d78ba64a403a
+  checksum: 10/8a12c6c6d63cb7d2c1b8b4fc5fbfbc04306b6e9b75d399e636bdea366367dd0d89264b19c63706a658b7322c57f8255d4f656713fdd7bdca968fa67ccc9cdda3
   languageName: node
   linkType: hard
 
-"@goldstack/template-nextjs@npm:0.5.113":
-  version: 0.5.113
-  resolution: "@goldstack/template-nextjs@npm:0.5.113"
+"@goldstack/template-nextjs@npm:0.5.114":
+  version: 0.5.114
+  resolution: "@goldstack/template-nextjs@npm:0.5.114"
   dependencies:
     "@goldstack/infra": "npm:0.4.42"
     "@goldstack/infra-aws": "npm:0.4.68"
     "@goldstack/template-static-website-aws": "npm:0.5.100"
     "@goldstack/utils-aws-cli": "npm:0.4.70"
-    "@goldstack/utils-aws-lambda": "npm:0.3.82"
+    "@goldstack/utils-aws-lambda": "npm:0.3.83"
     "@goldstack/utils-cli": "npm:0.3.33"
     "@goldstack/utils-config": "npm:0.4.42"
     "@goldstack/utils-log": "npm:0.3.35"
@@ -1921,7 +1921,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-nextjs: ./bin/template
-  checksum: 10/cb4b77cb0b47e1d008f4e24e7ae1a2a698b4232128d8547365a8e18e39bf154269ad7f3996e4f78f177cd001a684abf4395c6532aaac635f5638e1dc43c896c6
+  checksum: 10/c98bd8e9fefe33ec019ff1ebf94c90c8a8f91efe74e02b1232ede2b51cb35e7e6b474ce510d6461e1c54c667de705d89cb180cf2db637576275de4b8ae244242
   languageName: node
   linkType: hard
 
@@ -1964,9 +1964,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-aws-lambda@npm:0.3.82":
-  version: 0.3.82
-  resolution: "@goldstack/utils-aws-lambda@npm:0.3.82"
+"@goldstack/utils-aws-lambda@npm:0.3.83":
+  version: 0.3.83
+  resolution: "@goldstack/utils-aws-lambda@npm:0.3.83"
   dependencies:
     "@aws-sdk/types": "npm:^3.973.5"
     "@goldstack/infra-aws": "npm:0.4.68"
@@ -1977,7 +1977,7 @@ __metadata:
     archiver: "npm:^5.3.1"
     esbuild: "npm:^0.25.6"
     esbuild-ssr-css-modules-plugin: "npm:0.1.32"
-  checksum: 10/6e9e2715042060f236f363a201a6e99b4095157705048b8c79cdad005935f38bbb9d63e3933b1d42b640cca9a0c5edc0156558449d4eda8c4e939505838829c1
+  checksum: 10/c35a4264d68c5a2966bf9281631e66792e5e90dcea238164bed86d821cd03209c38a767c8bf7c6c85b4658461f17da61cce51c90953c7fdf3046653000789078
   languageName: node
   linkType: hard
 
@@ -1988,6 +1988,16 @@ __metadata:
     pino: "npm:^9.4.0"
     pino-pretty: "npm:^11.2.2"
   checksum: 10/eeaf9cd8890a2d4daef6afbdc68644ca9b5606940c89ac0e43b7b4383d0909c66cd50926938262f52abfad9d7578a53c8becaf84bbb90d0cdbacdd09a5a1846a
+  languageName: node
+  linkType: hard
+
+"@goldstack/utils-cli@npm:0.3.34":
+  version: 0.3.34
+  resolution: "@goldstack/utils-cli@npm:0.3.34"
+  dependencies:
+    pino: "npm:^9.4.0"
+    pino-pretty: "npm:^11.2.2"
+  checksum: 10/d5969b25764019627e99c55a386a68133c5e4f2f106a95bdcc4dd392329281b6f6fe6554e35eb2533182df7a09b58eeb6d89acbb8251be287a964f866323d5cc
   languageName: node
   linkType: hard
 
@@ -2019,6 +2029,15 @@ __metadata:
   dependencies:
     "@goldstack/utils-cli": "npm:0.3.33"
   checksum: 10/98302804b5b7ad858f51c97c30da465ba8e1ad0df57627a0aa6c60dad0dd65e55d9888344339d8812a3602a20c6b993c14e57839deaf7f4c5622feb40bfda6fb
+  languageName: node
+  linkType: hard
+
+"@goldstack/utils-log@npm:0.3.36":
+  version: 0.3.36
+  resolution: "@goldstack/utils-log@npm:0.3.36"
+  dependencies:
+    "@goldstack/utils-cli": "npm:0.3.34"
+  checksum: 10/ef419af7405a30dc82b3e4bbe60a90199207b07a9d26449e578017b02164fe1919d71ec95f4b08ad5ee06bca7ee3a9cca2eebc6a7908f8f6fff558328d7af780
   languageName: node
   linkType: hard
 
@@ -2074,6 +2093,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@goldstack/utils-sh@npm:0.5.41":
+  version: 0.5.41
+  resolution: "@goldstack/utils-sh@npm:0.5.41"
+  dependencies:
+    "@goldstack/utils-log": "npm:0.3.36"
+    archiver: "npm:^5.3.1"
+    fs-extra: "npm:^11.2.0"
+    glob: "npm:11.1.0"
+    rimraf: "npm:^6.1.2"
+    which: "npm:^2.0.2"
+    yauzl: "npm:^2.10.0"
+  checksum: 10/4920ab054ca2ed8c3899de16cc7a562e19dbc179ffbd7411ca33e1b60497c344c58f554de4857e7b8903505289d684ea0df75bdac0c373dc4330655afbec2d9b
+  languageName: node
+  linkType: hard
+
 "@goldstack/utils-template@npm:0.4.43":
   version: 0.4.43
   resolution: "@goldstack/utils-template@npm:0.4.43"
@@ -2120,16 +2154,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-typescript-references@npm:0.3.31":
-  version: 0.3.31
-  resolution: "@goldstack/utils-typescript-references@npm:0.3.31"
+"@goldstack/utils-typescript-references@npm:0.3.32":
+  version: 0.3.32
+  resolution: "@goldstack/utils-typescript-references@npm:0.3.32"
   dependencies:
-    "@goldstack/utils-log": "npm:0.3.35"
+    "@goldstack/utils-log": "npm:0.3.36"
     source-map-support: "npm:^0.5.21"
     yargs: "npm:^17"
   bin:
     utils-typescript-references: ./bin/utils-typescript-references
-  checksum: 10/9880aad82a4a6a10bce9ea50c81630b9e2cea131c081d3e2b0a38c28ef691f6c2f6b71b9d1f0b85fbd9409c9e715f6ec5b270bf4beb83f72c6b081a78ecbde8b
+  checksum: 10/b2a42fee3ca4634aa14404a482aa9871e93472d7d5f0fce87984a582cf746a85f95693bf445c92d1ef9c4e325a1e2c6e73f82377af5136fbfc409c4692819555
   languageName: node
   linkType: hard
 
@@ -3778,92 +3812,108 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-arm64@npm:1.15.8":
-  version: 1.15.8
-  resolution: "@swc/core-darwin-arm64@npm:1.15.8"
+"@swc/core-darwin-arm64@npm:1.15.46":
+  version: 1.15.46
+  resolution: "@swc/core-darwin-arm64@npm:1.15.46"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-x64@npm:1.15.8":
-  version: 1.15.8
-  resolution: "@swc/core-darwin-x64@npm:1.15.8"
+"@swc/core-darwin-x64@npm:1.15.46":
+  version: 1.15.46
+  resolution: "@swc/core-darwin-x64@npm:1.15.46"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm-gnueabihf@npm:1.15.8":
-  version: 1.15.8
-  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.15.8"
+"@swc/core-linux-arm-gnueabihf@npm:1.15.46":
+  version: 1.15.46
+  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.15.46"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-gnu@npm:1.15.8":
-  version: 1.15.8
-  resolution: "@swc/core-linux-arm64-gnu@npm:1.15.8"
+"@swc/core-linux-arm64-gnu@npm:1.15.46":
+  version: 1.15.46
+  resolution: "@swc/core-linux-arm64-gnu@npm:1.15.46"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-musl@npm:1.15.8":
-  version: 1.15.8
-  resolution: "@swc/core-linux-arm64-musl@npm:1.15.8"
+"@swc/core-linux-arm64-musl@npm:1.15.46":
+  version: 1.15.46
+  resolution: "@swc/core-linux-arm64-musl@npm:1.15.46"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-gnu@npm:1.15.8":
-  version: 1.15.8
-  resolution: "@swc/core-linux-x64-gnu@npm:1.15.8"
+"@swc/core-linux-ppc64-gnu@npm:1.15.46":
+  version: 1.15.46
+  resolution: "@swc/core-linux-ppc64-gnu@npm:1.15.46"
+  conditions: os=linux & cpu=ppc64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-s390x-gnu@npm:1.15.46":
+  version: 1.15.46
+  resolution: "@swc/core-linux-s390x-gnu@npm:1.15.46"
+  conditions: os=linux & cpu=s390x & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-x64-gnu@npm:1.15.46":
+  version: 1.15.46
+  resolution: "@swc/core-linux-x64-gnu@npm:1.15.46"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-musl@npm:1.15.8":
-  version: 1.15.8
-  resolution: "@swc/core-linux-x64-musl@npm:1.15.8"
+"@swc/core-linux-x64-musl@npm:1.15.46":
+  version: 1.15.46
+  resolution: "@swc/core-linux-x64-musl@npm:1.15.46"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-win32-arm64-msvc@npm:1.15.8":
-  version: 1.15.8
-  resolution: "@swc/core-win32-arm64-msvc@npm:1.15.8"
+"@swc/core-win32-arm64-msvc@npm:1.15.46":
+  version: 1.15.46
+  resolution: "@swc/core-win32-arm64-msvc@npm:1.15.46"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-win32-ia32-msvc@npm:1.15.8":
-  version: 1.15.8
-  resolution: "@swc/core-win32-ia32-msvc@npm:1.15.8"
+"@swc/core-win32-ia32-msvc@npm:1.15.46":
+  version: 1.15.46
+  resolution: "@swc/core-win32-ia32-msvc@npm:1.15.46"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@swc/core-win32-x64-msvc@npm:1.15.8":
-  version: 1.15.8
-  resolution: "@swc/core-win32-x64-msvc@npm:1.15.8"
+"@swc/core-win32-x64-msvc@npm:1.15.46":
+  version: 1.15.46
+  resolution: "@swc/core-win32-x64-msvc@npm:1.15.46"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core@npm:^1.15.8":
-  version: 1.15.8
-  resolution: "@swc/core@npm:1.15.8"
+"@swc/core@npm:^1.15.46":
+  version: 1.15.46
+  resolution: "@swc/core@npm:1.15.46"
   dependencies:
-    "@swc/core-darwin-arm64": "npm:1.15.8"
-    "@swc/core-darwin-x64": "npm:1.15.8"
-    "@swc/core-linux-arm-gnueabihf": "npm:1.15.8"
-    "@swc/core-linux-arm64-gnu": "npm:1.15.8"
-    "@swc/core-linux-arm64-musl": "npm:1.15.8"
-    "@swc/core-linux-x64-gnu": "npm:1.15.8"
-    "@swc/core-linux-x64-musl": "npm:1.15.8"
-    "@swc/core-win32-arm64-msvc": "npm:1.15.8"
-    "@swc/core-win32-ia32-msvc": "npm:1.15.8"
-    "@swc/core-win32-x64-msvc": "npm:1.15.8"
+    "@swc/core-darwin-arm64": "npm:1.15.46"
+    "@swc/core-darwin-x64": "npm:1.15.46"
+    "@swc/core-linux-arm-gnueabihf": "npm:1.15.46"
+    "@swc/core-linux-arm64-gnu": "npm:1.15.46"
+    "@swc/core-linux-arm64-musl": "npm:1.15.46"
+    "@swc/core-linux-ppc64-gnu": "npm:1.15.46"
+    "@swc/core-linux-s390x-gnu": "npm:1.15.46"
+    "@swc/core-linux-x64-gnu": "npm:1.15.46"
+    "@swc/core-linux-x64-musl": "npm:1.15.46"
+    "@swc/core-win32-arm64-msvc": "npm:1.15.46"
+    "@swc/core-win32-ia32-msvc": "npm:1.15.46"
+    "@swc/core-win32-x64-msvc": "npm:1.15.46"
     "@swc/counter": "npm:^0.1.3"
-    "@swc/types": "npm:^0.1.25"
+    "@swc/types": "npm:^0.1.27"
   peerDependencies:
     "@swc/helpers": ">=0.5.17"
   dependenciesMeta:
@@ -3876,6 +3926,10 @@ __metadata:
     "@swc/core-linux-arm64-gnu":
       optional: true
     "@swc/core-linux-arm64-musl":
+      optional: true
+    "@swc/core-linux-ppc64-gnu":
+      optional: true
+    "@swc/core-linux-s390x-gnu":
       optional: true
     "@swc/core-linux-x64-gnu":
       optional: true
@@ -3890,7 +3944,7 @@ __metadata:
   peerDependenciesMeta:
     "@swc/helpers":
       optional: true
-  checksum: 10/893156733eff53632148969d4ed570b023a2469479d0eb113319181f8517bcdddb533954eccf689265f230111893a568e8f24e1412eba71217cd390135246ee4
+  checksum: 10/7345ee1a99729f0082bfe7988bada60c8390bc8642cb06d33514773a0ab1b6a350d0213538058daedbf964871e1056426971c7c1993c8da5d50c52b86c4b6371
   languageName: node
   linkType: hard
 
@@ -3932,12 +3986,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/types@npm:^0.1.25":
-  version: 0.1.25
-  resolution: "@swc/types@npm:0.1.25"
+"@swc/types@npm:^0.1.27":
+  version: 0.1.27
+  resolution: "@swc/types@npm:0.1.27"
   dependencies:
     "@swc/counter": "npm:^0.1.3"
-  checksum: 10/f6741450224892d12df43e5ca7f3cc0287df644dcd672626eb0cc2a3a8e3e875f4b29eb11336f37c7240cf6e010ba59eb3a79f4fb8bee5cbd168dfc1326ff369
+  checksum: 10/96b8161fbb3a151741c0b286a5886609219accc45c67b7cf946376c352d76e6c0fb11554d3e1daee3e55fe82156e8237b82245cda8e706f580d1c03272cfa29a
   languageName: node
   linkType: hard
 
@@ -4638,9 +4692,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app-nextjs-bootstrap-1@workspace:packages/app-nextjs-bootstrap-1"
   dependencies:
-    "@goldstack/template-nextjs": "npm:0.5.113"
-    "@goldstack/utils-sh": "npm:0.5.40"
-    "@swc/core": "npm:^1.15.8"
+    "@goldstack/template-nextjs": "npm:0.5.114"
+    "@goldstack/utils-sh": "npm:0.5.41"
+    "@swc/core": "npm:^1.15.46"
     "@swc/jest": "npm:^0.2.39"
     "@testing-library/dom": "npm:^10"
     "@testing-library/jest-dom": "npm:^6.9.1"
@@ -8788,8 +8842,8 @@ __metadata:
   resolution: "project-nextjsbootstrap1@workspace:."
   dependencies:
     "@biomejs/biome": "npm:2.3.5"
-    "@goldstack/nodemonx": "npm:0.4.42"
-    "@goldstack/utils-typescript-references": "npm:0.3.31"
+    "@goldstack/nodemonx": "npm:0.4.43"
+    "@goldstack/utils-typescript-references": "npm:0.3.32"
     "@types/jest": "npm:^30.0.0"
     "@types/node": "npm:^25.0.3"
     nodemon: "npm:^3.1.14"
