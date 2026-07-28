@@ -18258,7 +18258,7 @@ function getPathForDisplay(p) {
   return npath.normalize(npath.fromPortablePath(p));
 }
 
-const [major, minor] = process.versions.node.split(`.`).map((value) => parseInt(value, 10));
+const [major, minor, patch] = process.versions.node.split(`.`).map((value) => parseInt(value, 10));
 const WATCH_MODE_MESSAGE_USES_ARRAYS = major > 19 || major === 19 && minor >= 2 || major === 18 && minor >= 13;
 
 function readPackageScope(checkPath) {
@@ -18293,9 +18293,9 @@ Instead change the require of ${basename} in ${parentPath} to a dynamic import()
   err.code = `ERR_REQUIRE_ESM`;
   return err;
 }
-function reportRequiredFilesToWatchMode(files) {
+function reportRequiredFilesToWatchMode(paths) {
   if (process.env.WATCH_REPORT_DEPENDENCIES && process.send) {
-    files = files.map((filename) => npath.fromPortablePath(VirtualFS.resolveVirtual(npath.toPortablePath(filename))));
+    const files = paths.map((filename) => npath.fromPortablePath(VirtualFS.resolveVirtual(filename)));
     if (WATCH_MODE_MESSAGE_USES_ARRAYS) {
       process.send({ "watch:require": files });
     } else {
@@ -19938,9 +19938,10 @@ Required by: ${issuerLocator.name}@${issuerLocator.reference} (via ${issuerForDi
     const candidates = [];
     const qualifiedPath = applyNodeExtensionResolution(unqualifiedPath, candidates, { extensions });
     if (qualifiedPath) {
+      reportRequiredFilesToWatchMode([qualifiedPath]);
       return ppath.normalize(qualifiedPath);
     } else {
-      reportRequiredFilesToWatchMode(candidates.map((candidate) => npath.fromPortablePath(candidate)));
+      reportRequiredFilesToWatchMode(candidates);
       const unqualifiedPathForDisplay = getPathForDisplay(unqualifiedPath);
       const containingPackage = findPackageLocator(unqualifiedPath);
       if (containingPackage) {
