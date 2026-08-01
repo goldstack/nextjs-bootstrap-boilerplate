@@ -2552,7 +2552,7 @@ const RAW_RUNTIME_STATE =
           ["camelcase", "npm:5.3.1"],\
           ["find-up", "npm:4.1.0"],\
           ["get-package-type", "npm:0.1.0"],\
-          ["js-yaml", "npm:3.15.0"],\
+          ["js-yaml", "npm:3.15.1"],\
           ["resolve-from", "npm:5.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -5520,7 +5520,7 @@ const RAW_RUNTIME_STATE =
           ["date-fns", "npm:2.29.1"],\
           ["lodash", "npm:4.17.23"],\
           ["rxjs", "npm:7.5.6"],\
-          ["shell-quote", "npm:1.8.4"],\
+          ["shell-quote", "npm:1.10.0"],\
           ["spawn-command", "npm:0.0.2"],\
           ["supports-color", "npm:8.1.1"],\
           ["tree-kill", "npm:1.2.2"],\
@@ -6905,7 +6905,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/gray-matter-npm-4.0.3-852ae4f34c-9a8f146a7a.zip/node_modules/gray-matter/",\
         "packageDependencies": [\
           ["gray-matter", "npm:4.0.3"],\
-          ["js-yaml", "npm:3.15.0"],\
+          ["js-yaml", "npm:3.15.1"],\
           ["kind-of", "npm:6.0.3"],\
           ["section-matter", "npm:1.0.0"],\
           ["strip-bom-string", "npm:1.0.0"]\
@@ -8189,12 +8189,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["js-yaml", [\
-      ["npm:3.15.0", {\
-        "packageLocation": "./.yarn/cache/js-yaml-npm-3.15.0-c152ef7c11-2fdf3a1453.zip/node_modules/js-yaml/",\
+      ["npm:3.15.1", {\
+        "packageLocation": "./.yarn/cache/js-yaml-npm-3.15.1-057b38bd76-905842ce08.zip/node_modules/js-yaml/",\
         "packageDependencies": [\
           ["argparse", "npm:1.0.10"],\
           ["esprima", "npm:4.0.1"],\
-          ["js-yaml", "npm:3.15.0"]\
+          ["js-yaml", "npm:3.15.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -10427,10 +10427,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["shell-quote", [\
-      ["npm:1.8.4", {\
-        "packageLocation": "./.yarn/cache/shell-quote-npm-1.8.4-13eacaabff-a3e3796385.zip/node_modules/shell-quote/",\
+      ["npm:1.10.0", {\
+        "packageLocation": "./.yarn/cache/shell-quote-npm-1.10.0-8aabc0056e-d4a22aeefe.zip/node_modules/shell-quote/",\
         "packageDependencies": [\
-          ["shell-quote", "npm:1.8.4"]\
+          ["shell-quote", "npm:1.10.0"]\
         ],\
         "linkType": "HARD"\
       }]\
